@@ -17,10 +17,18 @@ find_package(std_msgs REQUIRED)
 add_executable(publisher_node src/publisher_node.cpp)
 target_link_libraries(publisher_node rclcpp::rclcpp std_msgs::std_msgs)
 
+add_executable(subscriber_node src/subscriber_node.cpp)
+target_link_libraries(subscriber_node rclcpp::rclcpp std_msgs::std_msgs)
+
 install(TARGETS 
   publisher_node
   subscriber_node
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 if(BUILD_TESTING)

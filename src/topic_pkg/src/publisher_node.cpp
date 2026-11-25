@@ -5,7 +5,7 @@ class PublisherNode : public rclcpp::Node{
 public:
     PublisherNode() : Node("publisher_node"){
         publisher_ = this->create_publisher<std_msgs::msg::String>(
-            "topic", 
+            "my_topic", 
             10
         );
 

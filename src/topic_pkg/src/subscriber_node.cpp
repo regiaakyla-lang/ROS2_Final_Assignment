@@ -5,7 +5,7 @@ class SubscriberNode :public rclcpp::Node{
 public:
     SubscriberNode():Node("subscriber_node"){
         subscriber_ = create_subscription<std_msgs::msg::String>(
-            "/my_topic",
+            "my_topic",
             10,
             std::bind(&SubscriberNode::Callback,this,std::placeholders::_1)
         );

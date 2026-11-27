@@ -1,0 +1,2577 @@
+[0.000000] (-) TimerEvent: {}
+[0.001191] (wpr_simulation2) JobQueued: {'identifier': 'wpr_simulation2', 'dependencies': OrderedDict()}
+[0.001384] (wpr_simulation2) JobStarted: {'identifier': 'wpr_simulation2'}
+[0.017524] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'cmake'}
+[0.018820] (wpr_simulation2) Command: {'cmd': ['/home/ivika/.local/bin/cmake', '/home/ivika/ros2_ws/src/wpr_simulation2', '-DCMAKE_INSTALL_PREFIX=/home/ivika/ros2_ws/src/install/wpr_simulation2'], 'cwd': '/home/ivika/ros2_ws/src/build/wpr_simulation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ivika'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivika'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/ivika/ros2_ws/src/wpr_simulation2'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ivika/.config/nvm/versions/node/v22.23.2/bin'), ('NVM_INC', '/home/ivika/.config/nvm/versions/node/v22.23.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '831'), ('SYSTEMD_EXEC_PID', '992'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4199'), ('NVM_DIR', '/home/ivika/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install:/home/ivika/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ivika'), ('JOURNAL_STREAM', '8:11312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '36354'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivika'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PI_VSCODE_BRIDGE_TOKEN', '0c5618273d18ab533986a962ff5de968baf90cd5bdec798eaf13fdb16f15d2c5'), ('PATH', '/home/ivika/.opencode/bin:/home/ivika/.espressif/eim:/opt/ros/humble/bin:/home/ivika/.config/nvm/versions/node/v22.23.2/bin:/home/ivika/.opencode/bin:/home/ivika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ivika/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/usr/share/code/bin/copilot-shim'), ('SESSION_MANAGER', 'local/Magic13:@/tmp/.ICE-unix/964,unix/Magic13:/tmp/.ICE-unix/964'), ('INVOCATION_ID', 'e7f7df87f8cb442db65f0e9b7388442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('PI_VSCODE_BRIDGE_EXTENSION', '/home/ivika/.vscode/extensions/narumi.narumi-pi-0.10.0/resources/pi-bridge.ts'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ivika/.config/Code/User/workspaceStorage/a7a5894ed8cc463657ec498507ed95f3/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXI0Y3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa2c624eab.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ivika/ros2_ws/src/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '25bc4bf93927217dd6ab6ea78fbcf57f'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/build/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup/lib/python3.10/site-packages:/home/ivika/Auto_Driving/experiments/lab01_http_car/build/control_learn:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('PI_VSCODE_BRIDGE_PORT', '39537'), ('CMAKE_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble')]), 'shell': False}
+[0.099954] (-) TimerEvent: {}
+[0.200258] (-) TimerEvent: {}
+[0.205038] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.205251] (wpr_simulation2) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.205359] (wpr_simulation2) StderrLine: {'line': b'  CMake.\n'}
+[0.205453] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[0.205533] (wpr_simulation2) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.205619] (wpr_simulation2) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.205715] (wpr_simulation2) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.205815] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-deprecated\n'}
+[0.205916] (wpr_simulation2) StderrLine: {'line': b'to suppress it.\n'}
+[0.206053] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.300726] (-) TimerEvent: {}
+[0.331270] (wpr_simulation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400803] (-) TimerEvent: {}
+[0.505902] (-) TimerEvent: {}
+[0.513445] (wpr_simulation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.538079] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.605994] (-) TimerEvent: {}
+[0.691816] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.706109] (-) TimerEvent: {}
+[0.728308] (wpr_simulation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.729474] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.730807] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.758067] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.808771] (-) TimerEvent: {}
+[0.895839] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.911772] (-) TimerEvent: {}
+[0.927351] (wpr_simulation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.928409] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.933650] (wpr_simulation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.959887] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.014063] (-) TimerEvent: {}
+[1.114395] (-) TimerEvent: {}
+[1.193044] (wpr_simulation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.214494] (-) TimerEvent: {}
+[1.315323] (-) TimerEvent: {}
+[1.387062] (wpr_simulation2) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[1.391336] (wpr_simulation2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.415426] (-) TimerEvent: {}
+[1.490045] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.505213] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.515531] (-) TimerEvent: {}
+[1.536701] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.579823] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.615632] (-) TimerEvent: {}
+[1.624783] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.715745] (-) TimerEvent: {}
+[1.758451] (wpr_simulation2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.813192] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.816125] (-) TimerEvent: {}
+[1.917152] (-) TimerEvent: {}
+[1.920871] (wpr_simulation2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.929415] (wpr_simulation2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.017257] (-) TimerEvent: {}
+[2.119982] (-) TimerEvent: {}
+[2.126584] (wpr_simulation2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.183974] (wpr_simulation2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[2.220087] (-) TimerEvent: {}
+[2.261341] (wpr_simulation2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.285739] (wpr_simulation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.320206] (-) TimerEvent: {}
+[2.421763] (-) TimerEvent: {}
+[2.458279] (wpr_simulation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.459536] (wpr_simulation2) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.522401] (-) TimerEvent: {}
+[2.608832] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.611586] (wpr_simulation2) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.622489] (-) TimerEvent: {}
+[2.704805] (wpr_simulation2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.722600] (-) TimerEvent: {}
+[2.755390] (wpr_simulation2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.24 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.782588] (wpr_simulation2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.786001] (wpr_simulation2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0")\n'}
+[2.786302] (wpr_simulation2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.822708] (-) TimerEvent: {}
+[2.923008] (-) TimerEvent: {}
+[2.955746] (wpr_simulation2) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.997410] (wpr_simulation2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.015986] (wpr_simulation2) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[3.023123] (-) TimerEvent: {}
+[3.048521] (wpr_simulation2) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4")\n'}
+[3.051773] (wpr_simulation2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.103686] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):\n'}
+[3.103843] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[3.103905] (wpr_simulation2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[3.103958] (wpr_simulation2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[3.104008] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.104055] (wpr_simulation2) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[3.104103] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.104151] (wpr_simulation2) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[3.104198] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.104244] (wpr_simulation2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[3.104291] (wpr_simulation2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[3.104338] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.104384] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)\n'}
+[3.104431] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[3.104477] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.104525] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[3.104572] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:25 (find_package)\n'}
+[3.104625] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[3.104673] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[3.104768] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.110145] (wpr_simulation2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[3.123222] (-) TimerEvent: {}
+[3.123965] (wpr_simulation2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[3.154872] (wpr_simulation2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")\n'}
+[3.155088] (wpr_simulation2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.155383] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[3.155515] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[3.155609] (wpr_simulation2) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[3.155704] (wpr_simulation2) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[3.155800] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.155884] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[3.155965] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[3.156048] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.156131] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[3.156213] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:25 (find_package)\n'}
+[3.156293] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[3.156375] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[3.156457] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.199629] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[3.199828] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[3.199930] (wpr_simulation2) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[3.200018] (wpr_simulation2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[3.200100] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.200299] (wpr_simulation2) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[3.200383] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.200462] (wpr_simulation2) StderrLine: {'line': b'    /usr\n'}
+[3.200545] (wpr_simulation2) StderrLine: {'line': b'\n'}
+[3.200625] (wpr_simulation2) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[3.200721] (wpr_simulation2) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[3.200815] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.200897] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)\n'}
+[3.200979] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)\n'}
+[3.201061] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[3.201141] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.201222] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[3.201304] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:25 (find_package)\n'}
+[3.201386] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[3.201481] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[3.201562] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[3.218366] (wpr_simulation2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[3.223311] (-) TimerEvent: {}
+[3.232430] (wpr_simulation2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[3.282002] (wpr_simulation2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so\n'}
+[3.282257] (wpr_simulation2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[3.323420] (-) TimerEvent: {}
+[3.423686] (-) TimerEvent: {}
+[3.524001] (-) TimerEvent: {}
+[3.624279] (-) TimerEvent: {}
+[3.724561] (-) TimerEvent: {}
+[3.824863] (-) TimerEvent: {}
+[3.925158] (-) TimerEvent: {}
+[4.025972] (-) TimerEvent: {}
+[4.127764] (-) TimerEvent: {}
+[4.228065] (-) TimerEvent: {}
+[4.328389] (-) TimerEvent: {}
+[4.429079] (-) TimerEvent: {}
+[4.529387] (-) TimerEvent: {}
+[4.631755] (-) TimerEvent: {}
+[4.706521] (wpr_simulation2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[4.723124] (wpr_simulation2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[4.732774] (-) TimerEvent: {}
+[4.772194] (wpr_simulation2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so\n'}
+[4.778517] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.833764] (-) TimerEvent: {}
+[4.860391] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.933858] (-) TimerEvent: {}
+[5.034759] (-) TimerEvent: {}
+[5.136299] (-) TimerEvent: {}
+[5.236963] (-) TimerEvent: {}
+[5.325567] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[5.325769] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[5.325880] (wpr_simulation2) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[5.326068] (wpr_simulation2) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[5.326171] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.326260] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[5.326351] (wpr_simulation2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[5.326442] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[5.326533] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[5.326622] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:25 (find_package)\n'}
+[5.326735] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[5.326827] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[5.326916] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[5.337060] (-) TimerEvent: {}
+[5.344077] (wpr_simulation2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.355313] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.364913] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.437162] (-) TimerEvent: {}
+[5.537453] (-) TimerEvent: {}
+[5.637768] (-) TimerEvent: {}
+[5.738135] (-) TimerEvent: {}
+[5.838869] (-) TimerEvent: {}
+[5.886151] (wpr_simulation2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.938959] (-) TimerEvent: {}
+[6.039217] (-) TimerEvent: {}
+[6.139701] (-) TimerEvent: {}
+[6.240194] (-) TimerEvent: {}
+[6.340650] (-) TimerEvent: {}
+[6.344592] (wpr_simulation2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.441486] (-) TimerEvent: {}
+[6.541753] (-) TimerEvent: {}
+[6.642047] (-) TimerEvent: {}
+[6.742414] (-) TimerEvent: {}
+[6.842837] (-) TimerEvent: {}
+[6.858687] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so\n'}
+[6.861205] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so\n'}
+[6.864095] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so\n'}
+[6.866791] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so\n'}
+[6.869761] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so\n'}
+[6.872149] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so\n'}
+[6.873087] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12\n'}
+[6.873932] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12\n'}
+[6.877217] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so\n'}
+[6.879318] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so\n'}
+[6.882121] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so\n'}
+[6.884836] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so\n'}
+[6.887588] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so\n'}
+[6.890249] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so\n'}
+[6.893074] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so\n'}
+[6.895747] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so\n'}
+[6.898375] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so\n'}
+[6.900886] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so\n'}
+[6.903525] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so\n'}
+[6.905897] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so\n'}
+[6.907670] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12\n'}
+[6.908733] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12\n'}
+[6.909865] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12\n'}
+[6.912923] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so\n'}
+[6.915684] (wpr_simulation2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so\n'}
+[6.922915] (wpr_simulation2) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[6.943143] (-) TimerEvent: {}
+[6.957448] (wpr_simulation2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[7.012572] (wpr_simulation2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.043236] (-) TimerEvent: {}
+[7.143866] (-) TimerEvent: {}
+[7.244165] (-) TimerEvent: {}
+[7.345762] (-) TimerEvent: {}
+[7.446057] (-) TimerEvent: {}
+[7.546354] (-) TimerEvent: {}
+[7.646642] (-) TimerEvent: {}
+[7.650003] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.746740] (-) TimerEvent: {}
+[7.847095] (-) TimerEvent: {}
+[7.947360] (-) TimerEvent: {}
+[8.048983] (-) TimerEvent: {}
+[8.149571] (-) TimerEvent: {}
+[8.249836] (-) TimerEvent: {}
+[8.350142] (-) TimerEvent: {}
+[8.450556] (-) TimerEvent: {}
+[8.550847] (-) TimerEvent: {}
+[8.653276] (-) TimerEvent: {}
+[8.753666] (-) TimerEvent: {}
+[8.801776] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.853754] (-) TimerEvent: {}
+[8.954210] (-) TimerEvent: {}
+[9.054458] (-) TimerEvent: {}
+[9.151708] (wpr_simulation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.154513] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[9.154717] (-) TimerEvent: {}
+[9.154950] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.155076] (wpr_simulation2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.155170] (wpr_simulation2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.155256] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.155340] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.155423] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.155503] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.155584] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[9.155668] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[9.155768] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[9.179144] (wpr_simulation2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[9.182470] (wpr_simulation2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.183432] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[9.183539] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.183596] (wpr_simulation2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.183647] (wpr_simulation2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.183702] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.183775] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[9.183824] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.183872] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.183919] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.183965] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[9.184020] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[9.184067] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[9.205828] (wpr_simulation2) StderrLine: {'line': b'\x1b[33mCMake Warning (policy) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[9.206013] (wpr_simulation2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.206111] (wpr_simulation2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.206204] (wpr_simulation2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.206288] (wpr_simulation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.206370] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[9.206460] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.206534] (wpr_simulation2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.206596] (wpr_simulation2) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.206680] (wpr_simulation2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-author or -Wno-policy to\n'}
+[9.206784] (wpr_simulation2) StderrLine: {'line': b'suppress it.\n'}
+[9.206877] (wpr_simulation2) StderrLine: {'line': b'\x1b[0m\n'}
+[9.216756] (wpr_simulation2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[9.216961] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.217059] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.217145] (wpr_simulation2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.238683] (wpr_simulation2) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[9.254823] (-) TimerEvent: {}
+[9.355110] (-) TimerEvent: {}
+[9.455356] (-) TimerEvent: {}
+[9.555583] (-) TimerEvent: {}
+[9.556144] (wpr_simulation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.597702] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.600835] (wpr_simulation2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ivika/ros2_ws/src/wpr_simulation2/include\n'}
+[9.600979] (wpr_simulation2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.602832] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.605640] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.607513] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.616458] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.616666] (wpr_simulation2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.618467] (wpr_simulation2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.622067] (wpr_simulation2) StdoutLine: {'line': b'-- Configuring done (9.4s)\n'}
+[9.655708] (-) TimerEvent: {}
+[9.755944] (-) TimerEvent: {}
+[9.856185] (-) TimerEvent: {}
+[9.956467] (-) TimerEvent: {}
+[10.054101] (wpr_simulation2) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[10.056548] (-) TimerEvent: {}
+[10.156809] (-) TimerEvent: {}
+[10.257766] (-) TimerEvent: {}
+[10.328305] (wpr_simulation2) StdoutLine: {'line': b'-- Build files have been written to: /home/ivika/ros2_ws/src/build/wpr_simulation2\n'}
+[10.357855] (-) TimerEvent: {}
+[10.382952] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[10.383526] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'build'}
+[10.383563] (wpr_simulation2) Command: {'cmd': ['/home/ivika/.local/bin/cmake', '--build', '/home/ivika/ros2_ws/src/build/wpr_simulation2', '--', '-j4', '-l4'], 'cwd': '/home/ivika/ros2_ws/src/build/wpr_simulation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ivika'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivika'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/ivika/ros2_ws/src/wpr_simulation2'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ivika/.config/nvm/versions/node/v22.23.2/bin'), ('NVM_INC', '/home/ivika/.config/nvm/versions/node/v22.23.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '831'), ('SYSTEMD_EXEC_PID', '992'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4199'), ('NVM_DIR', '/home/ivika/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install:/home/ivika/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ivika'), ('JOURNAL_STREAM', '8:11312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '36354'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivika'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PI_VSCODE_BRIDGE_TOKEN', '0c5618273d18ab533986a962ff5de968baf90cd5bdec798eaf13fdb16f15d2c5'), ('PATH', '/home/ivika/.opencode/bin:/home/ivika/.espressif/eim:/opt/ros/humble/bin:/home/ivika/.config/nvm/versions/node/v22.23.2/bin:/home/ivika/.opencode/bin:/home/ivika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ivika/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/usr/share/code/bin/copilot-shim'), ('SESSION_MANAGER', 'local/Magic13:@/tmp/.ICE-unix/964,unix/Magic13:/tmp/.ICE-unix/964'), ('INVOCATION_ID', 'e7f7df87f8cb442db65f0e9b7388442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('PI_VSCODE_BRIDGE_EXTENSION', '/home/ivika/.vscode/extensions/narumi.narumi-pi-0.10.0/resources/pi-bridge.ts'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ivika/.config/Code/User/workspaceStorage/a7a5894ed8cc463657ec498507ed95f3/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXI0Y3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa2c624eab.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ivika/ros2_ws/src/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '25bc4bf93927217dd6ab6ea78fbcf57f'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/build/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup/lib/python3.10/site-packages:/home/ivika/Auto_Driving/experiments/lab01_http_car/build/control_learn:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('PI_VSCODE_BRIDGE_PORT', '39537'), ('CMAKE_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble')]), 'shell': False}
+[10.457961] (-) TimerEvent: {}
+[10.495795] (wpr_simulation2) StdoutLine: {'line': b'[  1%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.505317] (wpr_simulation2) StdoutLine: {'line': b'[  2%] \x1b[1m\x1b[34mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[10.506165] (wpr_simulation2) StdoutLine: {'line': b'[  3%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.524815] (wpr_simulation2) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_wpr_simulation2\n'}
+[10.556119] (wpr_simulation2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/wpb_home_mani_sim.dir/src/wpb_home_mani_sim.cpp.o\x1b[0m\n'}
+[10.558061] (-) TimerEvent: {}
+[10.659744] (-) TimerEvent: {}
+[10.760019] (-) TimerEvent: {}
+[10.864752] (-) TimerEvent: {}
+[10.965058] (-) TimerEvent: {}
+[11.067755] (-) TimerEvent: {}
+[11.094961] (wpr_simulation2) StdoutLine: {'line': b'[  5%] Built target wpr_simulation2__rs\n'}
+[11.138151] (wpr_simulation2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_vel_cmd.dir/src/keyboard_vel_cmd.cpp.o\x1b[0m\n'}
+[11.168874] (-) TimerEvent: {}
+[11.196780] (wpr_simulation2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_c.dir/rosidl_generator_c/wpr_simulation2/msg/detail/object__functions.c.o\x1b[0m\n'}
+[11.227150] (wpr_simulation2) StdoutLine: {'line': b'[  7%] Built target wpr_simulation2__cpp\n'}
+[11.242267] (wpr_simulation2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o\x1b[0m\n'}
+[11.269304] (-) TimerEvent: {}
+[11.319319] (wpr_simulation2) StdoutLine: {'line': b'[ 10%] \x1b[1m\x1b[32mLinking C shared library libwpr_simulation2__rosidl_generator_c.so\x1b[0m\n'}
+[11.369408] (-) TimerEvent: {}
+[11.405105] (wpr_simulation2) StdoutLine: {'line': b'[ 10%] Built target wpr_simulation2__rosidl_generator_c\n'}
+[11.438841] (wpr_simulation2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/3_my_node.dir/demo_cpp/3_my_node.cpp.o\x1b[0m\n'}
+[11.470757] (-) TimerEvent: {}
+[11.571042] (-) TimerEvent: {}
+[11.671369] (-) TimerEvent: {}
+[11.777761] (-) TimerEvent: {}
+[11.880756] (-) TimerEvent: {}
+[11.981060] (-) TimerEvent: {}
+[12.081366] (-) TimerEvent: {}
+[12.183901] (-) TimerEvent: {}
+[12.289762] (-) TimerEvent: {}
+[12.390889] (-) TimerEvent: {}
+[12.493908] (-) TimerEvent: {}
+[12.594236] (-) TimerEvent: {}
+[12.698826] (-) TimerEvent: {}
+[12.799305] (-) TimerEvent: {}
+[12.901109] (-) TimerEvent: {}
+[13.006759] (-) TimerEvent: {}
+[13.107063] (-) TimerEvent: {}
+[13.207366] (-) TimerEvent: {}
+[13.309760] (-) TimerEvent: {}
+[13.412764] (-) TimerEvent: {}
+[13.514196] (-) TimerEvent: {}
+[13.617759] (-) TimerEvent: {}
+[13.718197] (-) TimerEvent: {}
+[13.819041] (-) TimerEvent: {}
+[13.921876] (-) TimerEvent: {}
+[14.025942] (-) TimerEvent: {}
+[14.127293] (-) TimerEvent: {}
+[14.229801] (-) TimerEvent: {}
+[14.330757] (-) TimerEvent: {}
+[14.431068] (-) TimerEvent: {}
+[14.531372] (-) TimerEvent: {}
+[14.631682] (-) TimerEvent: {}
+[14.732004] (-) TimerEvent: {}
+[14.832905] (-) TimerEvent: {}
+[14.933290] (-) TimerEvent: {}
+[15.034765] (-) TimerEvent: {}
+[15.135117] (-) TimerEvent: {}
+[15.235692] (-) TimerEvent: {}
+[15.336163] (-) TimerEvent: {}
+[15.437760] (-) TimerEvent: {}
+[15.538064] (-) TimerEvent: {}
+[15.638378] (-) TimerEvent: {}
+[15.738706] (-) TimerEvent: {}
+[15.840758] (-) TimerEvent: {}
+[15.941075] (-) TimerEvent: {}
+[16.043761] (-) TimerEvent: {}
+[16.144072] (-) TimerEvent: {}
+[16.244374] (-) TimerEvent: {}
+[16.344715] (-) TimerEvent: {}
+[16.445033] (-) TimerEvent: {}
+[16.545601] (-) TimerEvent: {}
+[16.648769] (-) TimerEvent: {}
+[16.751762] (-) TimerEvent: {}
+[16.852249] (-) TimerEvent: {}
+[16.952735] (-) TimerEvent: {}
+[17.053205] (-) TimerEvent: {}
+[17.153682] (-) TimerEvent: {}
+[17.254174] (-) TimerEvent: {}
+[17.354640] (-) TimerEvent: {}
+[17.457764] (-) TimerEvent: {}
+[17.558078] (-) TimerEvent: {}
+[17.658380] (-) TimerEvent: {}
+[17.665339] (wpr_simulation2) StdoutLine: {'line': b'[ 12%] \x1b[1m\x1b[32mLinking CXX executable 3_my_node\x1b[0m\n'}
+[17.758499] (-) TimerEvent: {}
+[17.858775] (-) TimerEvent: {}
+[17.960768] (-) TimerEvent: {}
+[18.042627] (wpr_simulation2) StdoutLine: {'line': b'[ 12%] Built target 3_my_node\n'}
+[18.061541] (wpr_simulation2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/3_publisher_node.dir/demo_cpp/3_publisher_node.cpp.o\x1b[0m\n'}
+[18.061917] (-) TimerEvent: {}
+[18.167762] (-) TimerEvent: {}
+[18.268085] (-) TimerEvent: {}
+[18.370874] (-) TimerEvent: {}
+[18.471194] (-) TimerEvent: {}
+[18.571513] (-) TimerEvent: {}
+[18.671821] (-) TimerEvent: {}
+[18.772111] (-) TimerEvent: {}
+[18.872415] (-) TimerEvent: {}
+[18.972742] (-) TimerEvent: {}
+[19.073037] (-) TimerEvent: {}
+[19.175760] (-) TimerEvent: {}
+[19.276755] (-) TimerEvent: {}
+[19.377228] (-) TimerEvent: {}
+[19.486767] (-) TimerEvent: {}
+[19.587067] (-) TimerEvent: {}
+[19.689759] (-) TimerEvent: {}
+[19.790046] (-) TimerEvent: {}
+[19.890350] (-) TimerEvent: {}
+[19.992764] (-) TimerEvent: {}
+[20.093238] (-) TimerEvent: {}
+[20.193772] (-) TimerEvent: {}
+[20.295951] (-) TimerEvent: {}
+[20.397761] (-) TimerEvent: {}
+[20.498331] (-) TimerEvent: {}
+[20.598839] (-) TimerEvent: {}
+[20.700765] (-) TimerEvent: {}
+[20.801111] (-) TimerEvent: {}
+[20.810150] (wpr_simulation2) StdoutLine: {'line': b'[ 15%] \x1b[1m\x1b[32mLinking CXX executable keyboard_vel_cmd\x1b[0m\n'}
+[20.901224] (-) TimerEvent: {}
+[20.973214] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] \x1b[1m\x1b[32mLinking CXX executable ball_random_move\x1b[0m\n'}
+[21.003762] (-) TimerEvent: {}
+[21.105687] (-) TimerEvent: {}
+[21.204389] (wpr_simulation2) StdoutLine: {'line': b'[ 16%] Built target keyboard_vel_cmd\n'}
+[21.205820] (-) TimerEvent: {}
+[21.227220] (wpr_simulation2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/3_subscriber_node.dir/demo_cpp/3_subscriber_node.cpp.o\x1b[0m\n'}
+[21.305923] (-) TimerEvent: {}
+[21.406217] (-) TimerEvent: {}
+[21.506551] (-) TimerEvent: {}
+[21.526801] (wpr_simulation2) StdoutLine: {'line': b'[ 17%] Built target ball_random_move\n'}
+[21.543899] (wpr_simulation2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/4_velocity_command.dir/demo_cpp/4_velocity_command.cpp.o\x1b[0m\n'}
+[21.606654] (-) TimerEvent: {}
+[21.706989] (-) TimerEvent: {}
+[21.809876] (-) TimerEvent: {}
+[21.910414] (-) TimerEvent: {}
+[22.010946] (-) TimerEvent: {}
+[22.111408] (-) TimerEvent: {}
+[22.211918] (-) TimerEvent: {}
+[22.312400] (-) TimerEvent: {}
+[22.412895] (-) TimerEvent: {}
+[22.513388] (-) TimerEvent: {}
+[22.613897] (-) TimerEvent: {}
+[22.715946] (-) TimerEvent: {}
+[22.816446] (-) TimerEvent: {}
+[22.916940] (-) TimerEvent: {}
+[23.017445] (-) TimerEvent: {}
+[23.119417] (-) TimerEvent: {}
+[23.222767] (-) TimerEvent: {}
+[23.323232] (-) TimerEvent: {}
+[23.424462] (-) TimerEvent: {}
+[23.524944] (-) TimerEvent: {}
+[23.625430] (-) TimerEvent: {}
+[23.725930] (-) TimerEvent: {}
+[23.826415] (-) TimerEvent: {}
+[23.926902] (-) TimerEvent: {}
+[24.027442] (-) TimerEvent: {}
+[24.127913] (-) TimerEvent: {}
+[24.228231] (-) TimerEvent: {}
+[24.330419] (-) TimerEvent: {}
+[24.431202] (-) TimerEvent: {}
+[24.531546] (-) TimerEvent: {}
+[24.633513] (-) TimerEvent: {}
+[24.736771] (-) TimerEvent: {}
+[24.837106] (-) TimerEvent: {}
+[24.937949] (-) TimerEvent: {}
+[25.038425] (-) TimerEvent: {}
+[25.144764] (-) TimerEvent: {}
+[25.245143] (-) TimerEvent: {}
+[25.345755] (-) TimerEvent: {}
+[25.446081] (-) TimerEvent: {}
+[25.547763] (-) TimerEvent: {}
+[25.648333] (-) TimerEvent: {}
+[25.748827] (-) TimerEvent: {}
+[25.851944] (-) TimerEvent: {}
+[25.952627] (-) TimerEvent: {}
+[26.053069] (-) TimerEvent: {}
+[26.153549] (-) TimerEvent: {}
+[26.254040] (-) TimerEvent: {}
+[26.354517] (-) TimerEvent: {}
+[26.455019] (-) TimerEvent: {}
+[26.557266] (-) TimerEvent: {}
+[26.657752] (-) TimerEvent: {}
+[26.758080] (-) TimerEvent: {}
+[26.858399] (-) TimerEvent: {}
+[26.958728] (-) TimerEvent: {}
+[27.060767] (-) TimerEvent: {}
+[27.161068] (-) TimerEvent: {}
+[27.262319] (-) TimerEvent: {}
+[27.362628] (-) TimerEvent: {}
+[27.463127] (-) TimerEvent: {}
+[27.563424] (-) TimerEvent: {}
+[27.663744] (-) TimerEvent: {}
+[27.765184] (-) TimerEvent: {}
+[27.865489] (-) TimerEvent: {}
+[27.965762] (-) TimerEvent: {}
+[28.066073] (-) TimerEvent: {}
+[28.168004] (-) TimerEvent: {}
+[28.268304] (-) TimerEvent: {}
+[28.368667] (-) TimerEvent: {}
+[28.469048] (-) TimerEvent: {}
+[28.569336] (-) TimerEvent: {}
+[28.670768] (-) TimerEvent: {}
+[28.771099] (-) TimerEvent: {}
+[28.871466] (-) TimerEvent: {}
+[28.971759] (-) TimerEvent: {}
+[29.074761] (-) TimerEvent: {}
+[29.175051] (-) TimerEvent: {}
+[29.276761] (-) TimerEvent: {}
+[29.377230] (-) TimerEvent: {}
+[29.477673] (-) TimerEvent: {}
+[29.580264] (-) TimerEvent: {}
+[29.682765] (-) TimerEvent: {}
+[29.783085] (-) TimerEvent: {}
+[29.883656] (-) TimerEvent: {}
+[29.984178] (-) TimerEvent: {}
+[29.996160] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] \x1b[1m\x1b[32mLinking CXX executable 3_publisher_node\x1b[0m\n'}
+[30.084301] (-) TimerEvent: {}
+[30.184652] (-) TimerEvent: {}
+[30.284979] (-) TimerEvent: {}
+[30.385276] (-) TimerEvent: {}
+[30.485644] (-) TimerEvent: {}
+[30.530737] (wpr_simulation2) StdoutLine: {'line': b'[ 20%] Built target 3_publisher_node\n'}
+[30.548757] (wpr_simulation2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/5_lidar_data.dir/demo_cpp/5_lidar_data.cpp.o\x1b[0m\n'}
+[30.585770] (-) TimerEvent: {}
+[30.675077] (wpr_simulation2) StdoutLine: {'line': b'[ 22%] \x1b[1m\x1b[32mLinking CXX executable wpb_home_mani_sim\x1b[0m\n'}
+[30.685867] (-) TimerEvent: {}
+[30.757329] (wpr_simulation2) StdoutLine: {'line': b'[ 23%] \x1b[1m\x1b[32mLinking CXX executable 4_velocity_command\x1b[0m\n'}
+[30.785973] (-) TimerEvent: {}
+[30.888776] (-) TimerEvent: {}
+[30.989319] (-) TimerEvent: {}
+[31.047806] (wpr_simulation2) StdoutLine: {'line': b'[ 23%] Built target 4_velocity_command\n'}
+[31.069099] (wpr_simulation2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/5_lidar_behavior.dir/demo_cpp/5_lidar_behavior.cpp.o\x1b[0m\n'}
+[31.089425] (-) TimerEvent: {}
+[31.189764] (-) TimerEvent: {}
+[31.290098] (-) TimerEvent: {}
+[31.391880] (-) TimerEvent: {}
+[31.494759] (-) TimerEvent: {}
+[31.595236] (-) TimerEvent: {}
+[31.695727] (-) TimerEvent: {}
+[31.797771] (-) TimerEvent: {}
+[31.898259] (-) TimerEvent: {}
+[31.918027] (wpr_simulation2) StdoutLine: {'line': b'[ 25%] Built target wpb_home_mani_sim\n'}
+[31.937554] (wpr_simulation2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/6_imu_data.dir/demo_cpp/6_imu_data.cpp.o\x1b[0m\n'}
+[31.998360] (-) TimerEvent: {}
+[32.098669] (-) TimerEvent: {}
+[32.198989] (-) TimerEvent: {}
+[32.299303] (-) TimerEvent: {}
+[32.399612] (-) TimerEvent: {}
+[32.506175] (-) TimerEvent: {}
+[32.606546] (-) TimerEvent: {}
+[32.707005] (-) TimerEvent: {}
+[32.807486] (-) TimerEvent: {}
+[32.908871] (-) TimerEvent: {}
+[33.010025] (-) TimerEvent: {}
+[33.112909] (-) TimerEvent: {}
+[33.213665] (-) TimerEvent: {}
+[33.314178] (-) TimerEvent: {}
+[33.416298] (-) TimerEvent: {}
+[33.516606] (-) TimerEvent: {}
+[33.617878] (-) TimerEvent: {}
+[33.718362] (-) TimerEvent: {}
+[33.821900] (-) TimerEvent: {}
+[33.922619] (-) TimerEvent: {}
+[34.022939] (-) TimerEvent: {}
+[34.123253] (-) TimerEvent: {}
+[34.225882] (-) TimerEvent: {}
+[34.326219] (-) TimerEvent: {}
+[34.426533] (-) TimerEvent: {}
+[34.527024] (-) TimerEvent: {}
+[34.627349] (-) TimerEvent: {}
+[34.729762] (-) TimerEvent: {}
+[34.830721] (-) TimerEvent: {}
+[34.931235] (-) TimerEvent: {}
+[35.031719] (-) TimerEvent: {}
+[35.132235] (-) TimerEvent: {}
+[35.233769] (-) TimerEvent: {}
+[35.334093] (-) TimerEvent: {}
+[35.435989] (-) TimerEvent: {}
+[35.536652] (-) TimerEvent: {}
+[35.638994] (-) TimerEvent: {}
+[35.742788] (-) TimerEvent: {}
+[35.843277] (-) TimerEvent: {}
+[35.943772] (-) TimerEvent: {}
+[36.047766] (-) TimerEvent: {}
+[36.151765] (-) TimerEvent: {}
+[36.257774] (-) TimerEvent: {}
+[36.359765] (-) TimerEvent: {}
+[36.462769] (-) TimerEvent: {}
+[36.563085] (-) TimerEvent: {}
+[36.666775] (-) TimerEvent: {}
+[36.767257] (-) TimerEvent: {}
+[36.867724] (-) TimerEvent: {}
+[36.968223] (-) TimerEvent: {}
+[37.069468] (-) TimerEvent: {}
+[37.170285] (-) TimerEvent: {}
+[37.274976] (-) TimerEvent: {}
+[37.375295] (-) TimerEvent: {}
+[37.476771] (-) TimerEvent: {}
+[37.582139] (-) TimerEvent: {}
+[37.683291] (-) TimerEvent: {}
+[37.785780] (-) TimerEvent: {}
+[37.886291] (-) TimerEvent: {}
+[37.986938] (-) TimerEvent: {}
+[38.088007] (-) TimerEvent: {}
+[38.188631] (-) TimerEvent: {}
+[38.290246] (-) TimerEvent: {}
+[38.390553] (-) TimerEvent: {}
+[38.490870] (-) TimerEvent: {}
+[38.601765] (-) TimerEvent: {}
+[38.703877] (-) TimerEvent: {}
+[38.805775] (-) TimerEvent: {}
+[38.908555] (-) TimerEvent: {}
+[39.008907] (-) TimerEvent: {}
+[39.109214] (-) TimerEvent: {}
+[39.213763] (-) TimerEvent: {}
+[39.314068] (-) TimerEvent: {}
+[39.414378] (-) TimerEvent: {}
+[39.521313] (-) TimerEvent: {}
+[39.624755] (-) TimerEvent: {}
+[39.725063] (-) TimerEvent: {}
+[39.825960] (-) TimerEvent: {}
+[39.926273] (-) TimerEvent: {}
+[40.030284] (-) TimerEvent: {}
+[40.130907] (-) TimerEvent: {}
+[40.231231] (-) TimerEvent: {}
+[40.331547] (-) TimerEvent: {}
+[40.433769] (-) TimerEvent: {}
+[40.534245] (-) TimerEvent: {}
+[40.634755] (-) TimerEvent: {}
+[40.737761] (-) TimerEvent: {}
+[40.840761] (-) TimerEvent: {}
+[40.941508] (-) TimerEvent: {}
+[41.042218] (-) TimerEvent: {}
+[41.142522] (-) TimerEvent: {}
+[41.213063] (wpr_simulation2) StdoutLine: {'line': b'[ 27%] \x1b[1m\x1b[32mLinking CXX executable 3_subscriber_node\x1b[0m\n'}
+[41.242625] (-) TimerEvent: {}
+[41.344764] (-) TimerEvent: {}
+[41.445082] (-) TimerEvent: {}
+[41.545638] (-) TimerEvent: {}
+[41.646135] (-) TimerEvent: {}
+[41.746587] (-) TimerEvent: {}
+[41.847082] (-) TimerEvent: {}
+[41.948752] (-) TimerEvent: {}
+[42.049040] (-) TimerEvent: {}
+[42.152960] (-) TimerEvent: {}
+[42.253438] (-) TimerEvent: {}
+[42.290965] (wpr_simulation2) StdoutLine: {'line': b'[ 27%] Built target 3_subscriber_node\n'}
+[42.353554] (-) TimerEvent: {}
+[42.454055] (-) TimerEvent: {}
+[42.554525] (-) TimerEvent: {}
+[42.655002] (-) TimerEvent: {}
+[42.755477] (-) TimerEvent: {}
+[42.856369] (-) TimerEvent: {}
+[42.956855] (-) TimerEvent: {}
+[43.057353] (-) TimerEvent: {}
+[43.160184] (-) TimerEvent: {}
+[43.260489] (-) TimerEvent: {}
+[43.360770] (-) TimerEvent: {}
+[43.463768] (-) TimerEvent: {}
+[43.567182] (-) TimerEvent: {}
+[43.668766] (-) TimerEvent: {}
+[43.769102] (-) TimerEvent: {}
+[43.870763] (-) TimerEvent: {}
+[43.971249] (-) TimerEvent: {}
+[44.072308] (-) TimerEvent: {}
+[44.172619] (-) TimerEvent: {}
+[44.272972] (-) TimerEvent: {}
+[44.379651] (-) TimerEvent: {}
+[44.479974] (-) TimerEvent: {}
+[44.580470] (-) TimerEvent: {}
+[44.680983] (-) TimerEvent: {}
+[44.781470] (-) TimerEvent: {}
+[44.881933] (-) TimerEvent: {}
+[44.982391] (-) TimerEvent: {}
+[45.083951] (-) TimerEvent: {}
+[45.184414] (-) TimerEvent: {}
+[45.285261] (-) TimerEvent: {}
+[45.385573] (-) TimerEvent: {}
+[45.486159] (-) TimerEvent: {}
+[45.588956] (-) TimerEvent: {}
+[45.689483] (-) TimerEvent: {}
+[45.789965] (-) TimerEvent: {}
+[45.890454] (-) TimerEvent: {}
+[45.992251] (-) TimerEvent: {}
+[46.092549] (-) TimerEvent: {}
+[46.194271] (-) TimerEvent: {}
+[46.294824] (-) TimerEvent: {}
+[46.395291] (-) TimerEvent: {}
+[46.496533] (-) TimerEvent: {}
+[46.596840] (-) TimerEvent: {}
+[46.677878] (wpr_simulation2) StdoutLine: {'line': b'[ 28%] \x1b[1m\x1b[32mLinking CXX executable 5_lidar_data\x1b[0m\n'}
+[46.698758] (-) TimerEvent: {}
+[46.799052] (-) TimerEvent: {}
+[46.899375] (-) TimerEvent: {}
+[46.999730] (-) TimerEvent: {}
+[47.100020] (-) TimerEvent: {}
+[47.202858] (-) TimerEvent: {}
+[47.303205] (-) TimerEvent: {}
+[47.362591] (wpr_simulation2) StdoutLine: {'line': b'[ 28%] Built target 5_lidar_data\n'}
+[47.403304] (-) TimerEvent: {}
+[47.503586] (-) TimerEvent: {}
+[47.603878] (-) TimerEvent: {}
+[47.704184] (-) TimerEvent: {}
+[47.804475] (-) TimerEvent: {}
+[47.905786] (-) TimerEvent: {}
+[48.006083] (-) TimerEvent: {}
+[48.106388] (-) TimerEvent: {}
+[48.206684] (-) TimerEvent: {}
+[48.270583] (wpr_simulation2) StdoutLine: {'line': b'[ 30%] \x1b[1m\x1b[32mLinking CXX executable 5_lidar_behavior\x1b[0m\n'}
+[48.307761] (-) TimerEvent: {}
+[48.408226] (-) TimerEvent: {}
+[48.508689] (-) TimerEvent: {}
+[48.609064] (-) TimerEvent: {}
+[48.709593] (-) TimerEvent: {}
+[48.810061] (-) TimerEvent: {}
+[48.871809] (wpr_simulation2) StdoutLine: {'line': b'[ 30%] Built target 5_lidar_behavior\n'}
+[48.910162] (-) TimerEvent: {}
+[49.002005] (wpr_simulation2) StdoutLine: {'line': b'[ 31%] \x1b[1m\x1b[32mLinking CXX executable 6_imu_data\x1b[0m\n'}
+[49.010260] (-) TimerEvent: {}
+[49.110565] (-) TimerEvent: {}
+[49.210896] (-) TimerEvent: {}
+[49.311225] (-) TimerEvent: {}
+[49.396424] (wpr_simulation2) StdoutLine: {'line': b'[ 31%] Built target 6_imu_data\n'}
+[49.405761] (wpr_simulation2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/9_cv_image.dir/demo_cpp/9_cv_image.cpp.o\x1b[0m\n'}
+[49.411322] (-) TimerEvent: {}
+[49.511609] (-) TimerEvent: {}
+[49.611886] (-) TimerEvent: {}
+[49.712181] (-) TimerEvent: {}
+[49.812489] (-) TimerEvent: {}
+[49.912767] (-) TimerEvent: {}
+[50.013061] (-) TimerEvent: {}
+[50.113775] (-) TimerEvent: {}
+[50.214078] (-) TimerEvent: {}
+[50.314393] (-) TimerEvent: {}
+[50.414691] (-) TimerEvent: {}
+[50.514995] (-) TimerEvent: {}
+[50.615294] (-) TimerEvent: {}
+[50.716758] (-) TimerEvent: {}
+[50.817055] (-) TimerEvent: {}
+[50.917360] (-) TimerEvent: {}
+[51.018403] (-) TimerEvent: {}
+[51.118723] (-) TimerEvent: {}
+[51.219012] (-) TimerEvent: {}
+[51.320773] (-) TimerEvent: {}
+[51.421084] (-) TimerEvent: {}
+[51.521656] (-) TimerEvent: {}
+[51.622331] (-) TimerEvent: {}
+[51.722770] (-) TimerEvent: {}
+[51.823112] (-) TimerEvent: {}
+[51.928152] (-) TimerEvent: {}
+[52.028771] (-) TimerEvent: {}
+[52.129201] (-) TimerEvent: {}
+[52.230093] (-) TimerEvent: {}
+[52.330478] (-) TimerEvent: {}
+[52.431237] (-) TimerEvent: {}
+[52.531535] (-) TimerEvent: {}
+[52.631869] (-) TimerEvent: {}
+[52.732175] (-) TimerEvent: {}
+[52.832480] (-) TimerEvent: {}
+[52.932815] (-) TimerEvent: {}
+[53.033066] (-) TimerEvent: {}
+[53.133398] (-) TimerEvent: {}
+[53.233915] (-) TimerEvent: {}
+[53.335509] (-) TimerEvent: {}
+[53.436632] (-) TimerEvent: {}
+[53.536961] (-) TimerEvent: {}
+[53.637277] (-) TimerEvent: {}
+[53.737802] (-) TimerEvent: {}
+[53.838708] (-) TimerEvent: {}
+[53.938995] (-) TimerEvent: {}
+[54.039350] (-) TimerEvent: {}
+[54.140441] (-) TimerEvent: {}
+[54.240736] (-) TimerEvent: {}
+[54.342581] (-) TimerEvent: {}
+[54.442927] (-) TimerEvent: {}
+[54.543543] (-) TimerEvent: {}
+[54.643851] (-) TimerEvent: {}
+[54.744133] (-) TimerEvent: {}
+[54.844429] (-) TimerEvent: {}
+[54.944736] (-) TimerEvent: {}
+[55.045037] (-) TimerEvent: {}
+[55.145324] (-) TimerEvent: {}
+[55.245598] (-) TimerEvent: {}
+[55.345926] (-) TimerEvent: {}
+[55.446425] (-) TimerEvent: {}
+[55.546899] (-) TimerEvent: {}
+[55.647196] (-) TimerEvent: {}
+[55.747491] (-) TimerEvent: {}
+[55.847756] (-) TimerEvent: {}
+[55.948059] (-) TimerEvent: {}
+[56.048581] (-) TimerEvent: {}
+[56.149228] (-) TimerEvent: {}
+[56.249478] (-) TimerEvent: {}
+[56.349762] (-) TimerEvent: {}
+[56.450063] (-) TimerEvent: {}
+[56.550344] (-) TimerEvent: {}
+[56.650637] (-) TimerEvent: {}
+[56.750973] (-) TimerEvent: {}
+[56.853237] (-) TimerEvent: {}
+[56.953528] (-) TimerEvent: {}
+[57.055756] (-) TimerEvent: {}
+[57.156030] (-) TimerEvent: {}
+[57.256303] (-) TimerEvent: {}
+[57.356589] (-) TimerEvent: {}
+[57.456846] (-) TimerEvent: {}
+[57.557124] (-) TimerEvent: {}
+[57.657418] (-) TimerEvent: {}
+[57.757722] (-) TimerEvent: {}
+[57.858007] (-) TimerEvent: {}
+[57.958285] (-) TimerEvent: {}
+[58.058573] (-) TimerEvent: {}
+[58.158957] (-) TimerEvent: {}
+[58.259243] (-) TimerEvent: {}
+[58.359547] (-) TimerEvent: {}
+[58.459762] (-) TimerEvent: {}
+[58.560027] (-) TimerEvent: {}
+[58.660296] (-) TimerEvent: {}
+[58.760555] (-) TimerEvent: {}
+[58.860847] (-) TimerEvent: {}
+[58.961121] (-) TimerEvent: {}
+[59.061402] (-) TimerEvent: {}
+[59.161709] (-) TimerEvent: {}
+[59.261959] (-) TimerEvent: {}
+[59.362253] (-) TimerEvent: {}
+[59.462587] (-) TimerEvent: {}
+[59.562912] (-) TimerEvent: {}
+[59.663261] (-) TimerEvent: {}
+[59.763590] (-) TimerEvent: {}
+[59.863889] (-) TimerEvent: {}
+[59.875657] (wpr_simulation2) StdoutLine: {'line': b'[ 33%] \x1b[1m\x1b[32mLinking CXX executable 9_cv_image\x1b[0m\n'}
+[59.964009] (-) TimerEvent: {}
+[60.064363] (-) TimerEvent: {}
+[60.164634] (-) TimerEvent: {}
+[60.264940] (-) TimerEvent: {}
+[60.365236] (-) TimerEvent: {}
+[60.465520] (-) TimerEvent: {}
+[60.565821] (-) TimerEvent: {}
+[60.666135] (-) TimerEvent: {}
+[60.709213] (wpr_simulation2) StdoutLine: {'line': b'[ 33%] Built target 9_cv_image\n'}
+[60.720050] (wpr_simulation2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/9_cv_hsv.dir/demo_cpp/9_cv_hsv.cpp.o\x1b[0m\n'}
+[60.766233] (-) TimerEvent: {}
+[60.866529] (-) TimerEvent: {}
+[60.966920] (-) TimerEvent: {}
+[61.067165] (-) TimerEvent: {}
+[61.167456] (-) TimerEvent: {}
+[61.267753] (-) TimerEvent: {}
+[61.368858] (-) TimerEvent: {}
+[61.469163] (-) TimerEvent: {}
+[61.569450] (-) TimerEvent: {}
+[61.669742] (-) TimerEvent: {}
+[61.770030] (-) TimerEvent: {}
+[61.870346] (-) TimerEvent: {}
+[61.970638] (-) TimerEvent: {}
+[62.072760] (-) TimerEvent: {}
+[62.173066] (-) TimerEvent: {}
+[62.274182] (-) TimerEvent: {}
+[62.374491] (-) TimerEvent: {}
+[62.474966] (-) TimerEvent: {}
+[62.575403] (-) TimerEvent: {}
+[62.677771] (-) TimerEvent: {}
+[62.778074] (-) TimerEvent: {}
+[62.878582] (-) TimerEvent: {}
+[62.979105] (-) TimerEvent: {}
+[63.080015] (-) TimerEvent: {}
+[63.180590] (-) TimerEvent: {}
+[63.280904] (-) TimerEvent: {}
+[63.381220] (-) TimerEvent: {}
+[63.481539] (-) TimerEvent: {}
+[63.582593] (-) TimerEvent: {}
+[63.682900] (-) TimerEvent: {}
+[63.783158] (-) TimerEvent: {}
+[63.883469] (-) TimerEvent: {}
+[63.983777] (-) TimerEvent: {}
+[64.084568] (-) TimerEvent: {}
+[64.184879] (-) TimerEvent: {}
+[64.285181] (-) TimerEvent: {}
+[64.385855] (-) TimerEvent: {}
+[64.486161] (-) TimerEvent: {}
+[64.586849] (-) TimerEvent: {}
+[64.687142] (-) TimerEvent: {}
+[64.787754] (-) TimerEvent: {}
+[64.888036] (-) TimerEvent: {}
+[64.988844] (-) TimerEvent: {}
+[65.089334] (-) TimerEvent: {}
+[65.189750] (-) TimerEvent: {}
+[65.290680] (-) TimerEvent: {}
+[65.390961] (-) TimerEvent: {}
+[65.491457] (-) TimerEvent: {}
+[65.591752] (-) TimerEvent: {}
+[65.692763] (-) TimerEvent: {}
+[65.793229] (-) TimerEvent: {}
+[65.894608] (-) TimerEvent: {}
+[65.994916] (-) TimerEvent: {}
+[66.095221] (-) TimerEvent: {}
+[66.195529] (-) TimerEvent: {}
+[66.295823] (-) TimerEvent: {}
+[66.396126] (-) TimerEvent: {}
+[66.496415] (-) TimerEvent: {}
+[66.596661] (-) TimerEvent: {}
+[66.697265] (-) TimerEvent: {}
+[66.798757] (-) TimerEvent: {}
+[66.899061] (-) TimerEvent: {}
+[66.999349] (-) TimerEvent: {}
+[67.099610] (-) TimerEvent: {}
+[67.199882] (-) TimerEvent: {}
+[67.300142] (-) TimerEvent: {}
+[67.401312] (-) TimerEvent: {}
+[67.501620] (-) TimerEvent: {}
+[67.601932] (-) TimerEvent: {}
+[67.702199] (-) TimerEvent: {}
+[67.802449] (-) TimerEvent: {}
+[67.902728] (-) TimerEvent: {}
+[68.003853] (-) TimerEvent: {}
+[68.104109] (-) TimerEvent: {}
+[68.204387] (-) TimerEvent: {}
+[68.304640] (-) TimerEvent: {}
+[68.404919] (-) TimerEvent: {}
+[68.505195] (-) TimerEvent: {}
+[68.605465] (-) TimerEvent: {}
+[68.705753] (-) TimerEvent: {}
+[68.806043] (-) TimerEvent: {}
+[68.906341] (-) TimerEvent: {}
+[69.006813] (-) TimerEvent: {}
+[69.107103] (-) TimerEvent: {}
+[69.207374] (-) TimerEvent: {}
+[69.307650] (-) TimerEvent: {}
+[69.407939] (-) TimerEvent: {}
+[69.508232] (-) TimerEvent: {}
+[69.608490] (-) TimerEvent: {}
+[69.708756] (-) TimerEvent: {}
+[69.809047] (-) TimerEvent: {}
+[69.909352] (-) TimerEvent: {}
+[70.009610] (-) TimerEvent: {}
+[70.109901] (-) TimerEvent: {}
+[70.210171] (-) TimerEvent: {}
+[70.310661] (-) TimerEvent: {}
+[70.410999] (-) TimerEvent: {}
+[70.511278] (-) TimerEvent: {}
+[70.611541] (-) TimerEvent: {}
+[70.711825] (-) TimerEvent: {}
+[70.812102] (-) TimerEvent: {}
+[70.912419] (-) TimerEvent: {}
+[71.010398] (wpr_simulation2) StdoutLine: {'line': b'[ 36%] \x1b[1m\x1b[32mLinking CXX executable 9_cv_hsv\x1b[0m\n'}
+[71.012507] (-) TimerEvent: {}
+[71.112793] (-) TimerEvent: {}
+[71.213166] (-) TimerEvent: {}
+[71.313433] (-) TimerEvent: {}
+[71.413724] (-) TimerEvent: {}
+[71.514025] (-) TimerEvent: {}
+[71.614326] (-) TimerEvent: {}
+[71.707656] (wpr_simulation2) StdoutLine: {'line': b'[ 36%] Built target 9_cv_hsv\n'}
+[71.714423] (-) TimerEvent: {}
+[71.717595] (wpr_simulation2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/9_cv_follow.dir/demo_cpp/9_cv_follow.cpp.o\x1b[0m\n'}
+[71.814531] (-) TimerEvent: {}
+[71.914830] (-) TimerEvent: {}
+[72.015132] (-) TimerEvent: {}
+[72.115438] (-) TimerEvent: {}
+[72.215753] (-) TimerEvent: {}
+[72.316066] (-) TimerEvent: {}
+[72.416376] (-) TimerEvent: {}
+[72.516679] (-) TimerEvent: {}
+[72.616985] (-) TimerEvent: {}
+[72.717288] (-) TimerEvent: {}
+[72.817585] (-) TimerEvent: {}
+[72.917894] (-) TimerEvent: {}
+[73.018396] (-) TimerEvent: {}
+[73.118782] (-) TimerEvent: {}
+[73.219085] (-) TimerEvent: {}
+[73.319467] (-) TimerEvent: {}
+[73.419903] (-) TimerEvent: {}
+[73.520394] (-) TimerEvent: {}
+[73.620780] (-) TimerEvent: {}
+[73.721122] (-) TimerEvent: {}
+[73.821395] (-) TimerEvent: {}
+[73.921702] (-) TimerEvent: {}
+[74.021957] (-) TimerEvent: {}
+[74.122239] (-) TimerEvent: {}
+[74.222733] (-) TimerEvent: {}
+[74.323229] (-) TimerEvent: {}
+[74.424043] (-) TimerEvent: {}
+[74.524339] (-) TimerEvent: {}
+[74.624639] (-) TimerEvent: {}
+[74.725760] (-) TimerEvent: {}
+[74.826063] (-) TimerEvent: {}
+[74.926380] (-) TimerEvent: {}
+[75.027227] (-) TimerEvent: {}
+[75.127496] (-) TimerEvent: {}
+[75.227765] (-) TimerEvent: {}
+[75.328213] (-) TimerEvent: {}
+[75.430759] (-) TimerEvent: {}
+[75.531047] (-) TimerEvent: {}
+[75.631325] (-) TimerEvent: {}
+[75.731614] (-) TimerEvent: {}
+[75.831913] (-) TimerEvent: {}
+[75.932212] (-) TimerEvent: {}
+[76.032486] (-) TimerEvent: {}
+[76.132763] (-) TimerEvent: {}
+[76.233077] (-) TimerEvent: {}
+[76.333780] (-) TimerEvent: {}
+[76.434538] (-) TimerEvent: {}
+[76.534833] (-) TimerEvent: {}
+[76.635193] (-) TimerEvent: {}
+[76.735583] (-) TimerEvent: {}
+[76.836045] (-) TimerEvent: {}
+[76.936342] (-) TimerEvent: {}
+[77.036768] (-) TimerEvent: {}
+[77.137245] (-) TimerEvent: {}
+[77.237657] (-) TimerEvent: {}
+[77.338072] (-) TimerEvent: {}
+[77.438741] (-) TimerEvent: {}
+[77.539020] (-) TimerEvent: {}
+[77.639314] (-) TimerEvent: {}
+[77.739771] (-) TimerEvent: {}
+[77.840047] (-) TimerEvent: {}
+[77.940858] (-) TimerEvent: {}
+[78.041139] (-) TimerEvent: {}
+[78.141535] (-) TimerEvent: {}
+[78.241754] (-) TimerEvent: {}
+[78.342027] (-) TimerEvent: {}
+[78.442328] (-) TimerEvent: {}
+[78.542622] (-) TimerEvent: {}
+[78.642927] (-) TimerEvent: {}
+[78.743750] (-) TimerEvent: {}
+[78.844040] (-) TimerEvent: {}
+[78.944292] (-) TimerEvent: {}
+[79.044588] (-) TimerEvent: {}
+[79.144845] (-) TimerEvent: {}
+[79.245105] (-) TimerEvent: {}
+[79.345370] (-) TimerEvent: {}
+[79.445623] (-) TimerEvent: {}
+[79.545903] (-) TimerEvent: {}
+[79.646195] (-) TimerEvent: {}
+[79.746436] (-) TimerEvent: {}
+[79.846709] (-) TimerEvent: {}
+[79.946977] (-) TimerEvent: {}
+[80.047255] (-) TimerEvent: {}
+[80.147534] (-) TimerEvent: {}
+[80.248055] (-) TimerEvent: {}
+[80.348351] (-) TimerEvent: {}
+[80.448603] (-) TimerEvent: {}
+[80.548868] (-) TimerEvent: {}
+[80.649149] (-) TimerEvent: {}
+[80.749456] (-) TimerEvent: {}
+[80.849733] (-) TimerEvent: {}
+[80.950016] (-) TimerEvent: {}
+[81.050315] (-) TimerEvent: {}
+[81.150570] (-) TimerEvent: {}
+[81.251043] (-) TimerEvent: {}
+[81.351285] (-) TimerEvent: {}
+[81.451554] (-) TimerEvent: {}
+[81.551833] (-) TimerEvent: {}
+[81.653763] (-) TimerEvent: {}
+[81.748139] (wpr_simulation2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/9_cv_face_detect.dir/demo_cpp/9_cv_face_detect.cpp.o\x1b[0m\n'}
+[81.754762] (-) TimerEvent: {}
+[81.855079] (-) TimerEvent: {}
+[81.955385] (-) TimerEvent: {}
+[82.055666] (-) TimerEvent: {}
+[82.157762] (-) TimerEvent: {}
+[82.258064] (-) TimerEvent: {}
+[82.358367] (-) TimerEvent: {}
+[82.458687] (-) TimerEvent: {}
+[82.560762] (-) TimerEvent: {}
+[82.580363] (wpr_simulation2) StdoutLine: {'line': b'[ 40%] \x1b[1m\x1b[32mLinking CXX executable 9_cv_follow\x1b[0m\n'}
+[82.660878] (-) TimerEvent: {}
+[82.761416] (-) TimerEvent: {}
+[82.861773] (-) TimerEvent: {}
+[82.962107] (-) TimerEvent: {}
+[83.062406] (-) TimerEvent: {}
+[83.164762] (-) TimerEvent: {}
+[83.265188] (-) TimerEvent: {}
+[83.365501] (-) TimerEvent: {}
+[83.468172] (-) TimerEvent: {}
+[83.473615] (wpr_simulation2) StdoutLine: {'line': b'[ 40%] Built target 9_cv_follow\n'}
+[83.568274] (-) TimerEvent: {}
+[83.668567] (-) TimerEvent: {}
+[83.768864] (-) TimerEvent: {}
+[83.869166] (-) TimerEvent: {}
+[83.969451] (-) TimerEvent: {}
+[84.069749] (-) TimerEvent: {}
+[84.170039] (-) TimerEvent: {}
+[84.270331] (-) TimerEvent: {}
+[84.370621] (-) TimerEvent: {}
+[84.470918] (-) TimerEvent: {}
+[84.496151] (wpr_simulation2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/10_pc_data.dir/demo_cpp/10_pc_data.cpp.o\x1b[0m\n'}
+[84.571763] (-) TimerEvent: {}
+[84.672078] (-) TimerEvent: {}
+[84.773302] (-) TimerEvent: {}
+[84.873680] (-) TimerEvent: {}
+[84.974979] (-) TimerEvent: {}
+[85.075411] (-) TimerEvent: {}
+[85.175911] (-) TimerEvent: {}
+[85.276358] (-) TimerEvent: {}
+[85.378747] (-) TimerEvent: {}
+[85.479766] (-) TimerEvent: {}
+[85.522173] (wpr_simulation2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/8_waypoint_navigation.dir/demo_cpp/8_waypoint_navigation.cpp.o\x1b[0m\n'}
+[85.585763] (-) TimerEvent: {}
+[85.686090] (-) TimerEvent: {}
+[85.786546] (-) TimerEvent: {}
+[85.889202] (-) TimerEvent: {}
+[85.989661] (-) TimerEvent: {}
+[86.090146] (-) TimerEvent: {}
+[86.190641] (-) TimerEvent: {}
+[86.291103] (-) TimerEvent: {}
+[86.393942] (-) TimerEvent: {}
+[86.494253] (-) TimerEvent: {}
+[86.594566] (-) TimerEvent: {}
+[86.694877] (-) TimerEvent: {}
+[86.795186] (-) TimerEvent: {}
+[86.901765] (-) TimerEvent: {}
+[87.002067] (-) TimerEvent: {}
+[87.102379] (-) TimerEvent: {}
+[87.202683] (-) TimerEvent: {}
+[87.303756] (-) TimerEvent: {}
+[87.404205] (-) TimerEvent: {}
+[87.506772] (-) TimerEvent: {}
+[87.607768] (-) TimerEvent: {}
+[87.708088] (-) TimerEvent: {}
+[87.809769] (-) TimerEvent: {}
+[87.913593] (-) TimerEvent: {}
+[88.018489] (-) TimerEvent: {}
+[88.119224] (-) TimerEvent: {}
+[88.219770] (-) TimerEvent: {}
+[88.320071] (-) TimerEvent: {}
+[88.427849] (-) TimerEvent: {}
+[88.528807] (-) TimerEvent: {}
+[88.629126] (-) TimerEvent: {}
+[88.731767] (-) TimerEvent: {}
+[88.832062] (-) TimerEvent: {}
+[88.934761] (-) TimerEvent: {}
+[89.036758] (-) TimerEvent: {}
+[89.137270] (-) TimerEvent: {}
+[89.237766] (-) TimerEvent: {}
+[89.343762] (-) TimerEvent: {}
+[89.447182] (-) TimerEvent: {}
+[89.547477] (-) TimerEvent: {}
+[89.652773] (-) TimerEvent: {}
+[89.753786] (-) TimerEvent: {}
+[89.856381] (-) TimerEvent: {}
+[89.961766] (-) TimerEvent: {}
+[90.064772] (-) TimerEvent: {}
+[90.165067] (-) TimerEvent: {}
+[90.267761] (-) TimerEvent: {}
+[90.368804] (-) TimerEvent: {}
+[90.474114] (-) TimerEvent: {}
+[90.576777] (-) TimerEvent: {}
+[90.677800] (-) TimerEvent: {}
+[90.779620] (-) TimerEvent: {}
+[90.881806] (-) TimerEvent: {}
+[90.986478] (-) TimerEvent: {}
+[91.089588] (-) TimerEvent: {}
+[91.190734] (-) TimerEvent: {}
+[91.292402] (-) TimerEvent: {}
+[91.394192] (-) TimerEvent: {}
+[91.496396] (-) TimerEvent: {}
+[91.598337] (-) TimerEvent: {}
+[91.698769] (-) TimerEvent: {}
+[91.799077] (-) TimerEvent: {}
+[91.899560] (-) TimerEvent: {}
+[92.000871] (-) TimerEvent: {}
+[92.101336] (-) TimerEvent: {}
+[92.201769] (-) TimerEvent: {}
+[92.302865] (-) TimerEvent: {}
+[92.403358] (-) TimerEvent: {}
+[92.505859] (-) TimerEvent: {}
+[92.606151] (-) TimerEvent: {}
+[92.706451] (-) TimerEvent: {}
+[92.806760] (-) TimerEvent: {}
+[92.907045] (-) TimerEvent: {}
+[93.007349] (-) TimerEvent: {}
+[93.107635] (-) TimerEvent: {}
+[93.207948] (-) TimerEvent: {}
+[93.308253] (-) TimerEvent: {}
+[93.409270] (-) TimerEvent: {}
+[93.509616] (-) TimerEvent: {}
+[93.611766] (-) TimerEvent: {}
+[93.712169] (-) TimerEvent: {}
+[93.812500] (-) TimerEvent: {}
+[93.912762] (-) TimerEvent: {}
+[94.013063] (-) TimerEvent: {}
+[94.113381] (-) TimerEvent: {}
+[94.213694] (-) TimerEvent: {}
+[94.315882] (-) TimerEvent: {}
+[94.416217] (-) TimerEvent: {}
+[94.516538] (-) TimerEvent: {}
+[94.617109] (-) TimerEvent: {}
+[94.717569] (-) TimerEvent: {}
+[94.826908] (-) TimerEvent: {}
+[94.929398] (-) TimerEvent: {}
+[95.034383] (-) TimerEvent: {}
+[95.134742] (-) TimerEvent: {}
+[95.235533] (-) TimerEvent: {}
+[95.336567] (-) TimerEvent: {}
+[95.439716] (-) TimerEvent: {}
+[95.541770] (-) TimerEvent: {}
+[95.643142] (-) TimerEvent: {}
+[95.743854] (-) TimerEvent: {}
+[95.844165] (-) TimerEvent: {}
+[95.948765] (-) TimerEvent: {}
+[96.050355] (-) TimerEvent: {}
+[96.150839] (-) TimerEvent: {}
+[96.252867] (-) TimerEvent: {}
+[96.353460] (-) TimerEvent: {}
+[96.454000] (-) TimerEvent: {}
+[96.554360] (-) TimerEvent: {}
+[96.657762] (-) TimerEvent: {}
+[96.758071] (-) TimerEvent: {}
+[96.863117] (-) TimerEvent: {}
+[96.970803] (-) TimerEvent: {}
+[97.071839] (-) TimerEvent: {}
+[97.172354] (-) TimerEvent: {}
+[97.278767] (-) TimerEvent: {}
+[97.379084] (-) TimerEvent: {}
+[97.480896] (-) TimerEvent: {}
+[97.583807] (-) TimerEvent: {}
+[97.690428] (-) TimerEvent: {}
+[97.792761] (-) TimerEvent: {}
+[97.894863] (-) TimerEvent: {}
+[97.995873] (-) TimerEvent: {}
+[98.098449] (-) TimerEvent: {}
+[98.198938] (-) TimerEvent: {}
+[98.301779] (-) TimerEvent: {}
+[98.403760] (-) TimerEvent: {}
+[98.506761] (-) TimerEvent: {}
+[98.610826] (-) TimerEvent: {}
+[98.712583] (-) TimerEvent: {}
+[98.813863] (-) TimerEvent: {}
+[98.914345] (-) TimerEvent: {}
+[99.014654] (-) TimerEvent: {}
+[99.117868] (-) TimerEvent: {}
+[99.218178] (-) TimerEvent: {}
+[99.319757] (-) TimerEvent: {}
+[99.421758] (-) TimerEvent: {}
+[99.524759] (-) TimerEvent: {}
+[99.625053] (-) TimerEvent: {}
+[99.725333] (-) TimerEvent: {}
+[99.825759] (-) TimerEvent: {}
+[99.927230] (-) TimerEvent: {}
+[100.028762] (-) TimerEvent: {}
+[100.129063] (-) TimerEvent: {}
+[100.229374] (-) TimerEvent: {}
+[100.329683] (-) TimerEvent: {}
+[100.430032] (-) TimerEvent: {}
+[100.532761] (-) TimerEvent: {}
+[100.633253] (-) TimerEvent: {}
+[100.733745] (-) TimerEvent: {}
+[100.834052] (-) TimerEvent: {}
+[100.899837] (wpr_simulation2) StdoutLine: {'line': b'[ 43%] \x1b[1m\x1b[32mLinking CXX executable 8_waypoint_navigation\x1b[0m\n'}
+[100.934156] (-) TimerEvent: {}
+[101.034654] (-) TimerEvent: {}
+[101.137641] (-) TimerEvent: {}
+[101.238963] (-) TimerEvent: {}
+[101.339763] (-) TimerEvent: {}
+[101.440073] (-) TimerEvent: {}
+[101.542765] (-) TimerEvent: {}
+[101.643467] (-) TimerEvent: {}
+[101.649387] (wpr_simulation2) StdoutLine: {'line': b'[ 43%] Built target 8_waypoint_navigation\n'}
+[101.744155] (-) TimerEvent: {}
+[101.844902] (-) TimerEvent: {}
+[101.945247] (-) TimerEvent: {}
+[102.045558] (-) TimerEvent: {}
+[102.145860] (-) TimerEvent: {}
+[102.246804] (-) TimerEvent: {}
+[102.349225] (-) TimerEvent: {}
+[102.372824] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] \x1b[1m\x1b[32mLinking CXX executable 9_cv_face_detect\x1b[0m\n'}
+[102.449326] (-) TimerEvent: {}
+[102.549669] (-) TimerEvent: {}
+[102.650025] (-) TimerEvent: {}
+[102.750370] (-) TimerEvent: {}
+[102.850693] (-) TimerEvent: {}
+[102.950999] (-) TimerEvent: {}
+[103.051292] (-) TimerEvent: {}
+[103.151607] (-) TimerEvent: {}
+[103.251902] (-) TimerEvent: {}
+[103.352211] (-) TimerEvent: {}
+[103.452520] (-) TimerEvent: {}
+[103.536537] (wpr_simulation2) StdoutLine: {'line': b'[ 45%] Built target 9_cv_face_detect\n'}
+[103.552645] (-) TimerEvent: {}
+[103.652891] (-) TimerEvent: {}
+[103.753147] (-) TimerEvent: {}
+[103.853423] (-) TimerEvent: {}
+[103.953715] (-) TimerEvent: {}
+[104.053994] (-) TimerEvent: {}
+[104.154285] (-) TimerEvent: {}
+[104.254551] (-) TimerEvent: {}
+[104.354859] (-) TimerEvent: {}
+[104.455145] (-) TimerEvent: {}
+[104.555425] (-) TimerEvent: {}
+[104.656311] (-) TimerEvent: {}
+[104.756600] (-) TimerEvent: {}
+[104.857052] (-) TimerEvent: {}
+[104.957364] (-) TimerEvent: {}
+[105.058152] (-) TimerEvent: {}
+[105.158445] (-) TimerEvent: {}
+[105.234359] (wpr_simulation2) StdoutLine: {'line': b'[ 46%] \x1b[1m\x1b[32mLinking CXX executable 10_pc_data\x1b[0m\n'}
+[105.259791] (-) TimerEvent: {}
+[105.360107] (-) TimerEvent: {}
+[105.460422] (-) TimerEvent: {}
+[105.561325] (-) TimerEvent: {}
+[105.661882] (-) TimerEvent: {}
+[105.762426] (-) TimerEvent: {}
+[105.863643] (-) TimerEvent: {}
+[105.963953] (-) TimerEvent: {}
+[106.064710] (-) TimerEvent: {}
+[106.165086] (-) TimerEvent: {}
+[106.265389] (-) TimerEvent: {}
+[106.365651] (-) TimerEvent: {}
+[106.465948] (-) TimerEvent: {}
+[106.566233] (-) TimerEvent: {}
+[106.661323] (wpr_simulation2) StdoutLine: {'line': b'[ 46%] Built target 10_pc_data\n'}
+[106.666338] (-) TimerEvent: {}
+[106.671821] (wpr_simulation2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/11_mani_ctrl.dir/demo_cpp/11_mani_ctrl.cpp.o\x1b[0m\n'}
+[106.766442] (-) TimerEvent: {}
+[106.866856] (-) TimerEvent: {}
+[106.967113] (-) TimerEvent: {}
+[107.067400] (-) TimerEvent: {}
+[107.167683] (-) TimerEvent: {}
+[107.267978] (-) TimerEvent: {}
+[107.368273] (-) TimerEvent: {}
+[107.468575] (-) TimerEvent: {}
+[107.568875] (-) TimerEvent: {}
+[107.669162] (-) TimerEvent: {}
+[107.769453] (-) TimerEvent: {}
+[107.869748] (-) TimerEvent: {}
+[107.970037] (-) TimerEvent: {}
+[108.070353] (-) TimerEvent: {}
+[108.171155] (-) TimerEvent: {}
+[108.271455] (-) TimerEvent: {}
+[108.372155] (-) TimerEvent: {}
+[108.472464] (-) TimerEvent: {}
+[108.572765] (-) TimerEvent: {}
+[108.673223] (-) TimerEvent: {}
+[108.773516] (-) TimerEvent: {}
+[108.874300] (-) TimerEvent: {}
+[108.974590] (-) TimerEvent: {}
+[109.074896] (-) TimerEvent: {}
+[109.175231] (-) TimerEvent: {}
+[109.275765] (-) TimerEvent: {}
+[109.376057] (-) TimerEvent: {}
+[109.476386] (-) TimerEvent: {}
+[109.576804] (-) TimerEvent: {}
+[109.677046] (-) TimerEvent: {}
+[109.777414] (-) TimerEvent: {}
+[109.878409] (-) TimerEvent: {}
+[109.978717] (-) TimerEvent: {}
+[110.079015] (-) TimerEvent: {}
+[110.180872] (-) TimerEvent: {}
+[110.281165] (-) TimerEvent: {}
+[110.381482] (-) TimerEvent: {}
+[110.481761] (-) TimerEvent: {}
+[110.582345] (-) TimerEvent: {}
+[110.683838] (-) TimerEvent: {}
+[110.785758] (-) TimerEvent: {}
+[110.886060] (-) TimerEvent: {}
+[110.986561] (-) TimerEvent: {}
+[111.086873] (-) TimerEvent: {}
+[111.187164] (-) TimerEvent: {}
+[111.287474] (-) TimerEvent: {}
+[111.387764] (-) TimerEvent: {}
+[111.488797] (-) TimerEvent: {}
+[111.589096] (-) TimerEvent: {}
+[111.689405] (-) TimerEvent: {}
+[111.791761] (-) TimerEvent: {}
+[111.892056] (-) TimerEvent: {}
+[111.992336] (-) TimerEvent: {}
+[112.092591] (-) TimerEvent: {}
+[112.192893] (-) TimerEvent: {}
+[112.293329] (-) TimerEvent: {}
+[112.394213] (-) TimerEvent: {}
+[112.442595] (wpr_simulation2) StdoutLine: {'line': b'[ 48%] \x1b[1m\x1b[32mLinking CXX executable 11_mani_ctrl\x1b[0m\n'}
+[112.494341] (-) TimerEvent: {}
+[112.594621] (-) TimerEvent: {}
+[112.629517] (wpr_simulation2) StdoutLine: {'line': b'[ 48%] Built target 11_mani_ctrl\n'}
+[112.641811] (wpr_simulation2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/12_fetch.dir/demo_cpp/12_fetch.cpp.o\x1b[0m\n'}
+[112.694724] (-) TimerEvent: {}
+[112.794994] (-) TimerEvent: {}
+[112.895265] (-) TimerEvent: {}
+[112.995521] (-) TimerEvent: {}
+[113.095825] (-) TimerEvent: {}
+[113.196128] (-) TimerEvent: {}
+[113.296432] (-) TimerEvent: {}
+[113.396755] (-) TimerEvent: {}
+[113.497078] (-) TimerEvent: {}
+[113.597384] (-) TimerEvent: {}
+[113.697705] (-) TimerEvent: {}
+[113.798019] (-) TimerEvent: {}
+[113.898605] (-) TimerEvent: {}
+[113.999007] (-) TimerEvent: {}
+[114.099774] (-) TimerEvent: {}
+[114.201039] (-) TimerEvent: {}
+[114.302999] (-) TimerEvent: {}
+[114.403315] (-) TimerEvent: {}
+[114.503818] (-) TimerEvent: {}
+[114.605256] (-) TimerEvent: {}
+[114.705569] (-) TimerEvent: {}
+[114.805887] (-) TimerEvent: {}
+[114.906190] (-) TimerEvent: {}
+[115.006490] (-) TimerEvent: {}
+[115.106767] (-) TimerEvent: {}
+[115.207391] (-) TimerEvent: {}
+[115.307828] (-) TimerEvent: {}
+[115.408128] (-) TimerEvent: {}
+[115.508579] (-) TimerEvent: {}
+[115.609048] (-) TimerEvent: {}
+[115.709505] (-) TimerEvent: {}
+[115.809769] (-) TimerEvent: {}
+[115.910064] (-) TimerEvent: {}
+[116.010378] (-) TimerEvent: {}
+[116.110857] (-) TimerEvent: {}
+[116.211465] (-) TimerEvent: {}
+[116.311825] (-) TimerEvent: {}
+[116.412276] (-) TimerEvent: {}
+[116.513761] (-) TimerEvent: {}
+[116.614073] (-) TimerEvent: {}
+[116.714392] (-) TimerEvent: {}
+[116.814858] (-) TimerEvent: {}
+[116.916596] (-) TimerEvent: {}
+[117.017121] (-) TimerEvent: {}
+[117.118529] (-) TimerEvent: {}
+[117.218844] (-) TimerEvent: {}
+[117.319141] (-) TimerEvent: {}
+[117.419447] (-) TimerEvent: {}
+[117.520444] (-) TimerEvent: {}
+[117.620711] (-) TimerEvent: {}
+[117.721104] (-) TimerEvent: {}
+[117.821705] (-) TimerEvent: {}
+[117.922782] (-) TimerEvent: {}
+[118.023682] (-) TimerEvent: {}
+[118.124006] (-) TimerEvent: {}
+[118.224374] (-) TimerEvent: {}
+[118.324839] (-) TimerEvent: {}
+[118.425134] (-) TimerEvent: {}
+[118.526451] (-) TimerEvent: {}
+[118.626744] (-) TimerEvent: {}
+[118.727211] (-) TimerEvent: {}
+[118.827927] (-) TimerEvent: {}
+[118.928762] (-) TimerEvent: {}
+[119.029049] (-) TimerEvent: {}
+[119.129715] (-) TimerEvent: {}
+[119.229973] (-) TimerEvent: {}
+[119.330430] (-) TimerEvent: {}
+[119.431099] (-) TimerEvent: {}
+[119.531506] (-) TimerEvent: {}
+[119.632210] (-) TimerEvent: {}
+[119.732477] (-) TimerEvent: {}
+[119.832765] (-) TimerEvent: {}
+[119.933765] (-) TimerEvent: {}
+[120.034059] (-) TimerEvent: {}
+[120.134774] (-) TimerEvent: {}
+[120.235060] (-) TimerEvent: {}
+[120.335353] (-) TimerEvent: {}
+[120.435653] (-) TimerEvent: {}
+[120.536181] (-) TimerEvent: {}
+[120.636452] (-) TimerEvent: {}
+[120.736759] (-) TimerEvent: {}
+[120.837239] (-) TimerEvent: {}
+[120.937518] (-) TimerEvent: {}
+[121.037777] (-) TimerEvent: {}
+[121.138132] (-) TimerEvent: {}
+[121.238397] (-) TimerEvent: {}
+[121.338712] (-) TimerEvent: {}
+[121.438983] (-) TimerEvent: {}
+[121.539243] (-) TimerEvent: {}
+[121.639513] (-) TimerEvent: {}
+[121.739758] (-) TimerEvent: {}
+[121.840036] (-) TimerEvent: {}
+[121.940321] (-) TimerEvent: {}
+[122.040615] (-) TimerEvent: {}
+[122.140899] (-) TimerEvent: {}
+[122.241154] (-) TimerEvent: {}
+[122.341442] (-) TimerEvent: {}
+[122.441751] (-) TimerEvent: {}
+[122.541990] (-) TimerEvent: {}
+[122.642232] (-) TimerEvent: {}
+[122.742533] (-) TimerEvent: {}
+[122.842747] (-) TimerEvent: {}
+[122.942989] (-) TimerEvent: {}
+[123.043248] (-) TimerEvent: {}
+[123.143503] (-) TimerEvent: {}
+[123.243758] (-) TimerEvent: {}
+[123.344834] (-) TimerEvent: {}
+[123.445134] (-) TimerEvent: {}
+[123.545382] (-) TimerEvent: {}
+[123.645660] (-) TimerEvent: {}
+[123.745947] (-) TimerEvent: {}
+[123.798856] (wpr_simulation2) StdoutLine: {'line': b'[ 51%] \x1b[1m\x1b[32mLinking CXX executable 12_fetch\x1b[0m\n'}
+[123.846063] (-) TimerEvent: {}
+[123.946372] (-) TimerEvent: {}
+[124.046705] (-) TimerEvent: {}
+[124.149774] (-) TimerEvent: {}
+[124.206692] (wpr_simulation2) StdoutLine: {'line': b'[ 51%] Built target 12_fetch\n'}
+[124.217032] (wpr_simulation2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/demo_nav2_client.dir/demo_cpp/demo_nav2_client.cpp.o\x1b[0m\n'}
+[124.249869] (-) TimerEvent: {}
+[124.350151] (-) TimerEvent: {}
+[124.450444] (-) TimerEvent: {}
+[124.550750] (-) TimerEvent: {}
+[124.651051] (-) TimerEvent: {}
+[124.751351] (-) TimerEvent: {}
+[124.851640] (-) TimerEvent: {}
+[124.951954] (-) TimerEvent: {}
+[125.052250] (-) TimerEvent: {}
+[125.152549] (-) TimerEvent: {}
+[125.252842] (-) TimerEvent: {}
+[125.353140] (-) TimerEvent: {}
+[125.453444] (-) TimerEvent: {}
+[125.553769] (-) TimerEvent: {}
+[125.654467] (-) TimerEvent: {}
+[125.754761] (-) TimerEvent: {}
+[125.855264] (-) TimerEvent: {}
+[125.955786] (-) TimerEvent: {}
+[126.056110] (-) TimerEvent: {}
+[126.156608] (-) TimerEvent: {}
+[126.257253] (-) TimerEvent: {}
+[126.357745] (-) TimerEvent: {}
+[126.458251] (-) TimerEvent: {}
+[126.558760] (-) TimerEvent: {}
+[126.659585] (-) TimerEvent: {}
+[126.759899] (-) TimerEvent: {}
+[126.860413] (-) TimerEvent: {}
+[126.960736] (-) TimerEvent: {}
+[127.061068] (-) TimerEvent: {}
+[127.161387] (-) TimerEvent: {}
+[127.261953] (-) TimerEvent: {}
+[127.362404] (-) TimerEvent: {}
+[127.462754] (-) TimerEvent: {}
+[127.563075] (-) TimerEvent: {}
+[127.663476] (-) TimerEvent: {}
+[127.764767] (-) TimerEvent: {}
+[127.865071] (-) TimerEvent: {}
+[127.965370] (-) TimerEvent: {}
+[128.065897] (-) TimerEvent: {}
+[128.166348] (-) TimerEvent: {}
+[128.266850] (-) TimerEvent: {}
+[128.368871] (-) TimerEvent: {}
+[128.469170] (-) TimerEvent: {}
+[128.569853] (-) TimerEvent: {}
+[128.670291] (-) TimerEvent: {}
+[128.771328] (-) TimerEvent: {}
+[128.871642] (-) TimerEvent: {}
+[128.971951] (-) TimerEvent: {}
+[129.072221] (-) TimerEvent: {}
+[129.173107] (-) TimerEvent: {}
+[129.273720] (-) TimerEvent: {}
+[129.374292] (-) TimerEvent: {}
+[129.474605] (-) TimerEvent: {}
+[129.503900] (wpr_simulation2) StdoutLine: {'line': b'[ 53%] \x1b[1m\x1b[32mLinking CXX executable demo_nav2_client\x1b[0m\n'}
+[129.574752] (-) TimerEvent: {}
+[129.675038] (-) TimerEvent: {}
+[129.700827] (wpr_simulation2) StdoutLine: {'line': b'[ 53%] Built target demo_nav2_client\n'}
+[129.706425] (wpr_simulation2) StdoutLine: {'line': b'[ 55%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[129.775129] (-) TimerEvent: {}
+[129.875430] (-) TimerEvent: {}
+[129.970827] (wpr_simulation2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wpr_simulation2/msg/detail/object__type_support_c.cpp.o\x1b[0m\n'}
+[129.975563] (-) TimerEvent: {}
+[130.075817] (-) TimerEvent: {}
+[130.176129] (-) TimerEvent: {}
+[130.276406] (-) TimerEvent: {}
+[130.296438] (wpr_simulation2) StdoutLine: {'line': b'[ 57%] \x1b[1m\x1b[32mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[130.363368] (wpr_simulation2) StdoutLine: {'line': b'[ 57%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c\n'}
+[130.368610] (wpr_simulation2) StdoutLine: {'line': b'[ 58%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[130.376497] (-) TimerEvent: {}
+[130.476759] (-) TimerEvent: {}
+[130.577051] (-) TimerEvent: {}
+[130.624863] (wpr_simulation2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wpr_simulation2/msg/detail/dds_fastrtps/object__type_support.cpp.o\x1b[0m\n'}
+[130.677153] (-) TimerEvent: {}
+[130.777436] (-) TimerEvent: {}
+[130.877738] (-) TimerEvent: {}
+[130.978031] (-) TimerEvent: {}
+[131.078323] (-) TimerEvent: {}
+[131.078817] (wpr_simulation2) StdoutLine: {'line': b'[ 61%] \x1b[1m\x1b[32mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[131.150142] (wpr_simulation2) StdoutLine: {'line': b'[ 61%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp\n'}
+[131.155531] (wpr_simulation2) StdoutLine: {'line': b'[ 62%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[131.178415] (-) TimerEvent: {}
+[131.278675] (-) TimerEvent: {}
+[131.378954] (-) TimerEvent: {}
+[131.396480] (wpr_simulation2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wpr_simulation2/msg/detail/object__type_support.c.o\x1b[0m\n'}
+[131.437966] (wpr_simulation2) StdoutLine: {'line': b'[ 65%] \x1b[1m\x1b[32mLinking C shared library libwpr_simulation2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[131.458545] (wpr_simulation2) StdoutLine: {'line': b'[ 65%] Built target wpr_simulation2__rosidl_typesupport_introspection_c\n'}
+[131.464187] (wpr_simulation2) StdoutLine: {'line': b'[ 66%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[131.479047] (-) TimerEvent: {}
+[131.579316] (-) TimerEvent: {}
+[131.679605] (-) TimerEvent: {}
+[131.694647] (wpr_simulation2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/wpr_simulation2/msg/object__type_support.cpp.o\x1b[0m\n'}
+[131.695060] (wpr_simulation2) StdoutLine: {'line': b'[ 68%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[131.720377] (wpr_simulation2) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_c.so\x1b[0m\n'}
+[131.752767] (wpr_simulation2) StdoutLine: {'line': b'[ 70%] Built target wpr_simulation2__rosidl_typesupport_c\n'}
+[131.769753] (wpr_simulation2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/10_pc_objects.dir/demo_cpp/10_pc_objects.cpp.o\x1b[0m\n'}
+[131.780760] (-) TimerEvent: {}
+[131.881032] (-) TimerEvent: {}
+[131.957023] (wpr_simulation2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wpr_simulation2/msg/detail/object__type_support.cpp.o\x1b[0m\n'}
+[131.981136] (-) TimerEvent: {}
+[132.081924] (-) TimerEvent: {}
+[132.182234] (-) TimerEvent: {}
+[132.282542] (-) TimerEvent: {}
+[132.382868] (-) TimerEvent: {}
+[132.440140] (wpr_simulation2) StdoutLine: {'line': b'[ 73%] \x1b[1m\x1b[32mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[132.482982] (-) TimerEvent: {}
+[132.531754] (wpr_simulation2) StdoutLine: {'line': b'[ 73%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp\n'}
+[132.534241] (wpr_simulation2) StdoutLine: {'line': b'[ 75%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[132.553791] (wpr_simulation2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/6_imu_behavior.dir/demo_cpp/6_imu_behavior.cpp.o\x1b[0m\n'}
+[132.583072] (-) TimerEvent: {}
+[132.685101] (-) TimerEvent: {}
+[132.785920] (-) TimerEvent: {}
+[132.886374] (-) TimerEvent: {}
+[132.949759] (wpr_simulation2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wpr_simulation2/msg/object__type_support.cpp.o\x1b[0m\n'}
+[132.986483] (-) TimerEvent: {}
+[133.086984] (-) TimerEvent: {}
+[133.188896] (-) TimerEvent: {}
+[133.289399] (-) TimerEvent: {}
+[133.391759] (-) TimerEvent: {}
+[133.416667] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[133.468906] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target wpr_simulation2__rosidl_typesupport_cpp\n'}
+[133.491852] (-) TimerEvent: {}
+[133.593651] (-) TimerEvent: {}
+[133.694517] (-) TimerEvent: {}
+[133.794995] (-) TimerEvent: {}
+[133.895467] (-) TimerEvent: {}
+[133.997861] (-) TimerEvent: {}
+[134.047553] (wpr_simulation2) StdoutLine: {'line': b'running egg_info\n'}
+[134.049407] (wpr_simulation2) StdoutLine: {'line': b'creating wpr_simulation2.egg-info\n'}
+[134.049668] (wpr_simulation2) StdoutLine: {'line': b'writing wpr_simulation2.egg-info/PKG-INFO\n'}
+[134.050189] (wpr_simulation2) StdoutLine: {'line': b'writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt\n'}
+[134.050681] (wpr_simulation2) StdoutLine: {'line': b'writing top-level names to wpr_simulation2.egg-info/top_level.txt\n'}
+[134.051317] (wpr_simulation2) StdoutLine: {'line': b"writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[134.061836] (wpr_simulation2) StdoutLine: {'line': b"reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[134.062053] (wpr_simulation2) StdoutLine: {'line': b"writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'\n"}
+[134.097961] (-) TimerEvent: {}
+[134.100746] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_wpr_simulation2_egg\n'}
+[134.128640] (wpr_simulation2) StdoutLine: {'line': b'[ 78%] Built target wpr_simulation2\n'}
+[134.135878] (wpr_simulation2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/objects_publisher.dir/src/objects_publisher.cpp.o\x1b[0m\n'}
+[134.170357] (wpr_simulation2) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/grab_object_sim.dir/src/grab_object_sim.cpp.o\x1b[0m\n'}
+[134.198062] (-) TimerEvent: {}
+[134.298368] (-) TimerEvent: {}
+[134.398703] (-) TimerEvent: {}
+[134.501756] (-) TimerEvent: {}
+[134.602054] (-) TimerEvent: {}
+[134.702388] (-) TimerEvent: {}
+[134.802734] (-) TimerEvent: {}
+[134.903065] (-) TimerEvent: {}
+[135.003400] (-) TimerEvent: {}
+[135.103744] (-) TimerEvent: {}
+[135.204072] (-) TimerEvent: {}
+[135.304788] (-) TimerEvent: {}
+[135.405870] (-) TimerEvent: {}
+[135.507759] (-) TimerEvent: {}
+[135.612776] (-) TimerEvent: {}
+[135.720783] (-) TimerEvent: {}
+[135.821103] (-) TimerEvent: {}
+[135.921432] (-) TimerEvent: {}
+[136.021964] (-) TimerEvent: {}
+[136.122457] (-) TimerEvent: {}
+[136.222969] (-) TimerEvent: {}
+[136.323421] (-) TimerEvent: {}
+[136.423914] (-) TimerEvent: {}
+[136.524366] (-) TimerEvent: {}
+[136.625765] (-) TimerEvent: {}
+[136.726086] (-) TimerEvent: {}
+[136.832762] (-) TimerEvent: {}
+[136.933086] (-) TimerEvent: {}
+[137.033412] (-) TimerEvent: {}
+[137.133739] (-) TimerEvent: {}
+[137.234059] (-) TimerEvent: {}
+[137.334585] (-) TimerEvent: {}
+[137.435102] (-) TimerEvent: {}
+[137.535600] (-) TimerEvent: {}
+[137.636076] (-) TimerEvent: {}
+[137.742757] (-) TimerEvent: {}
+[137.843070] (-) TimerEvent: {}
+[137.943568] (-) TimerEvent: {}
+[138.044531] (-) TimerEvent: {}
+[138.145002] (-) TimerEvent: {}
+[138.245329] (-) TimerEvent: {}
+[138.345860] (-) TimerEvent: {}
+[138.446462] (-) TimerEvent: {}
+[138.546774] (-) TimerEvent: {}
+[138.647290] (-) TimerEvent: {}
+[138.749884] (-) TimerEvent: {}
+[138.850395] (-) TimerEvent: {}
+[138.950904] (-) TimerEvent: {}
+[139.051767] (-) TimerEvent: {}
+[139.153634] (-) TimerEvent: {}
+[139.263219] (-) TimerEvent: {}
+[139.368762] (-) TimerEvent: {}
+[139.473483] (-) TimerEvent: {}
+[139.574106] (-) TimerEvent: {}
+[139.674728] (-) TimerEvent: {}
+[139.775047] (-) TimerEvent: {}
+[139.875367] (-) TimerEvent: {}
+[139.977171] (-) TimerEvent: {}
+[140.079842] (-) TimerEvent: {}
+[140.182032] (-) TimerEvent: {}
+[140.283573] (-) TimerEvent: {}
+[140.384582] (-) TimerEvent: {}
+[140.497556] (-) TimerEvent: {}
+[140.597879] (-) TimerEvent: {}
+[140.698691] (-) TimerEvent: {}
+[140.799053] (-) TimerEvent: {}
+[140.899399] (-) TimerEvent: {}
+[141.004228] (-) TimerEvent: {}
+[141.104551] (-) TimerEvent: {}
+[141.210765] (-) TimerEvent: {}
+[141.311070] (-) TimerEvent: {}
+[141.411668] (-) TimerEvent: {}
+[141.512177] (-) TimerEvent: {}
+[141.612690] (-) TimerEvent: {}
+[141.715773] (-) TimerEvent: {}
+[141.816268] (-) TimerEvent: {}
+[141.916765] (-) TimerEvent: {}
+[142.017084] (-) TimerEvent: {}
+[142.117932] (-) TimerEvent: {}
+[142.218413] (-) TimerEvent: {}
+[142.321768] (-) TimerEvent: {}
+[142.422087] (-) TimerEvent: {}
+[142.524781] (-) TimerEvent: {}
+[142.625093] (-) TimerEvent: {}
+[142.725610] (-) TimerEvent: {}
+[142.825941] (-) TimerEvent: {}
+[142.926260] (-) TimerEvent: {}
+[143.027768] (-) TimerEvent: {}
+[143.130913] (-) TimerEvent: {}
+[143.232257] (-) TimerEvent: {}
+[143.334194] (-) TimerEvent: {}
+[143.434689] (-) TimerEvent: {}
+[143.535208] (-) TimerEvent: {}
+[143.637775] (-) TimerEvent: {}
+[143.738102] (-) TimerEvent: {}
+[143.844771] (-) TimerEvent: {}
+[143.945091] (-) TimerEvent: {}
+[144.045437] (-) TimerEvent: {}
+[144.149968] (-) TimerEvent: {}
+[144.250672] (-) TimerEvent: {}
+[144.350992] (-) TimerEvent: {}
+[144.451302] (-) TimerEvent: {}
+[144.552790] (-) TimerEvent: {}
+[144.653267] (-) TimerEvent: {}
+[144.755797] (-) TimerEvent: {}
+[144.859216] (-) TimerEvent: {}
+[144.959533] (-) TimerEvent: {}
+[145.059843] (-) TimerEvent: {}
+[145.161135] (-) TimerEvent: {}
+[145.261448] (-) TimerEvent: {}
+[145.364721] (-) TimerEvent: {}
+[145.465131] (-) TimerEvent: {}
+[145.565448] (-) TimerEvent: {}
+[145.669836] (-) TimerEvent: {}
+[145.770176] (-) TimerEvent: {}
+[145.873542] (-) TimerEvent: {}
+[145.974411] (-) TimerEvent: {}
+[146.075051] (-) TimerEvent: {}
+[146.175516] (-) TimerEvent: {}
+[146.276040] (-) TimerEvent: {}
+[146.377147] (-) TimerEvent: {}
+[146.477527] (-) TimerEvent: {}
+[146.578766] (-) TimerEvent: {}
+[146.679093] (-) TimerEvent: {}
+[146.782146] (-) TimerEvent: {}
+[146.882460] (-) TimerEvent: {}
+[146.984132] (-) TimerEvent: {}
+[147.085046] (-) TimerEvent: {}
+[147.186767] (-) TimerEvent: {}
+[147.287275] (-) TimerEvent: {}
+[147.387766] (-) TimerEvent: {}
+[147.490762] (-) TimerEvent: {}
+[147.591069] (-) TimerEvent: {}
+[147.692668] (-) TimerEvent: {}
+[147.792989] (-) TimerEvent: {}
+[147.897513] (-) TimerEvent: {}
+[147.997852] (-) TimerEvent: {}
+[148.102182] (-) TimerEvent: {}
+[148.205067] (-) TimerEvent: {}
+[148.305385] (-) TimerEvent: {}
+[148.407766] (-) TimerEvent: {}
+[148.510764] (-) TimerEvent: {}
+[148.611077] (-) TimerEvent: {}
+[148.711402] (-) TimerEvent: {}
+[148.811730] (-) TimerEvent: {}
+[148.912063] (-) TimerEvent: {}
+[149.012415] (-) TimerEvent: {}
+[149.112781] (-) TimerEvent: {}
+[149.213874] (-) TimerEvent: {}
+[149.314231] (-) TimerEvent: {}
+[149.414597] (-) TimerEvent: {}
+[149.517886] (-) TimerEvent: {}
+[149.618225] (-) TimerEvent: {}
+[149.718570] (-) TimerEvent: {}
+[149.832770] (-) TimerEvent: {}
+[149.935819] (-) TimerEvent: {}
+[150.036137] (-) TimerEvent: {}
+[150.136657] (-) TimerEvent: {}
+[150.239113] (-) TimerEvent: {}
+[150.339583] (-) TimerEvent: {}
+[150.439919] (-) TimerEvent: {}
+[150.540249] (-) TimerEvent: {}
+[150.644794] (-) TimerEvent: {}
+[150.745155] (-) TimerEvent: {}
+[150.845479] (-) TimerEvent: {}
+[150.945761] (-) TimerEvent: {}
+[151.046068] (-) TimerEvent: {}
+[151.146384] (-) TimerEvent: {}
+[151.247764] (-) TimerEvent: {}
+[151.348073] (-) TimerEvent: {}
+[151.448370] (-) TimerEvent: {}
+[151.548676] (-) TimerEvent: {}
+[151.651771] (-) TimerEvent: {}
+[151.753762] (-) TimerEvent: {}
+[151.854095] (-) TimerEvent: {}
+[151.954664] (-) TimerEvent: {}
+[152.055210] (-) TimerEvent: {}
+[152.155713] (-) TimerEvent: {}
+[152.256220] (-) TimerEvent: {}
+[152.356709] (-) TimerEvent: {}
+[152.459784] (-) TimerEvent: {}
+[152.560121] (-) TimerEvent: {}
+[152.567383] (wpr_simulation2) StdoutLine: {'line': b'[ 82%] \x1b[1m\x1b[32mLinking CXX executable 6_imu_behavior\x1b[0m\n'}
+[152.660240] (-) TimerEvent: {}
+[152.762087] (-) TimerEvent: {}
+[152.864271] (-) TimerEvent: {}
+[152.966886] (-) TimerEvent: {}
+[153.067400] (-) TimerEvent: {}
+[153.167930] (-) TimerEvent: {}
+[153.268464] (-) TimerEvent: {}
+[153.368951] (-) TimerEvent: {}
+[153.469387] (-) TimerEvent: {}
+[153.488817] (wpr_simulation2) StdoutLine: {'line': b'[ 82%] Built target 6_imu_behavior\n'}
+[153.569497] (-) TimerEvent: {}
+[153.672885] (-) TimerEvent: {}
+[153.774023] (-) TimerEvent: {}
+[153.875823] (-) TimerEvent: {}
+[153.981919] (-) TimerEvent: {}
+[154.084883] (-) TimerEvent: {}
+[154.185398] (-) TimerEvent: {}
+[154.285898] (-) TimerEvent: {}
+[154.386815] (-) TimerEvent: {}
+[154.487262] (-) TimerEvent: {}
+[154.587629] (-) TimerEvent: {}
+[154.688126] (-) TimerEvent: {}
+[154.788584] (-) TimerEvent: {}
+[154.889764] (-) TimerEvent: {}
+[154.991495] (-) TimerEvent: {}
+[155.092129] (-) TimerEvent: {}
+[155.193153] (-) TimerEvent: {}
+[155.293494] (-) TimerEvent: {}
+[155.395176] (-) TimerEvent: {}
+[155.495708] (-) TimerEvent: {}
+[155.596041] (-) TimerEvent: {}
+[155.698180] (-) TimerEvent: {}
+[155.800769] (-) TimerEvent: {}
+[155.901094] (-) TimerEvent: {}
+[156.001414] (-) TimerEvent: {}
+[156.102871] (-) TimerEvent: {}
+[156.205514] (-) TimerEvent: {}
+[156.306065] (-) TimerEvent: {}
+[156.409337] (-) TimerEvent: {}
+[156.512826] (-) TimerEvent: {}
+[156.613153] (-) TimerEvent: {}
+[156.714321] (-) TimerEvent: {}
+[156.816768] (-) TimerEvent: {}
+[156.919769] (-) TimerEvent: {}
+[157.020076] (-) TimerEvent: {}
+[157.120402] (-) TimerEvent: {}
+[157.221879] (-) TimerEvent: {}
+[157.323707] (-) TimerEvent: {}
+[157.424029] (-) TimerEvent: {}
+[157.524346] (-) TimerEvent: {}
+[157.627454] (-) TimerEvent: {}
+[157.730944] (-) TimerEvent: {}
+[157.832631] (-) TimerEvent: {}
+[157.933106] (-) TimerEvent: {}
+[158.033609] (-) TimerEvent: {}
+[158.134874] (-) TimerEvent: {}
+[158.235386] (-) TimerEvent: {}
+[158.336729] (-) TimerEvent: {}
+[158.437900] (-) TimerEvent: {}
+[158.540765] (-) TimerEvent: {}
+[158.642335] (-) TimerEvent: {}
+[158.742664] (-) TimerEvent: {}
+[158.848778] (-) TimerEvent: {}
+[158.953117] (-) TimerEvent: {}
+[159.055567] (-) TimerEvent: {}
+[159.158554] (-) TimerEvent: {}
+[159.264647] (-) TimerEvent: {}
+[159.366789] (-) TimerEvent: {}
+[159.473807] (-) TimerEvent: {}
+[159.574150] (-) TimerEvent: {}
+[159.674482] (-) TimerEvent: {}
+[159.774980] (-) TimerEvent: {}
+[159.875472] (-) TimerEvent: {}
+[159.977964] (-) TimerEvent: {}
+[160.078275] (-) TimerEvent: {}
+[160.179878] (-) TimerEvent: {}
+[160.280202] (-) TimerEvent: {}
+[160.383020] (-) TimerEvent: {}
+[160.489061] (-) TimerEvent: {}
+[160.590761] (-) TimerEvent: {}
+[160.691063] (-) TimerEvent: {}
+[160.791362] (-) TimerEvent: {}
+[160.892734] (-) TimerEvent: {}
+[160.999385] (-) TimerEvent: {}
+[161.104413] (-) TimerEvent: {}
+[161.204924] (-) TimerEvent: {}
+[161.305456] (-) TimerEvent: {}
+[161.411971] (-) TimerEvent: {}
+[161.514758] (-) TimerEvent: {}
+[161.615060] (-) TimerEvent: {}
+[161.716458] (-) TimerEvent: {}
+[161.816938] (-) TimerEvent: {}
+[161.917877] (-) TimerEvent: {}
+[162.020876] (-) TimerEvent: {}
+[162.121201] (-) TimerEvent: {}
+[162.226761] (-) TimerEvent: {}
+[162.327072] (-) TimerEvent: {}
+[162.427654] (-) TimerEvent: {}
+[162.530765] (-) TimerEvent: {}
+[162.632653] (-) TimerEvent: {}
+[162.734231] (-) TimerEvent: {}
+[162.835908] (-) TimerEvent: {}
+[162.937761] (-) TimerEvent: {}
+[163.038088] (-) TimerEvent: {}
+[163.140879] (-) TimerEvent: {}
+[163.241197] (-) TimerEvent: {}
+[163.343881] (-) TimerEvent: {}
+[163.406396] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] \x1b[1m\x1b[32mLinking CXX executable 10_pc_objects\x1b[0m\n'}
+[163.443988] (-) TimerEvent: {}
+[163.545873] (-) TimerEvent: {}
+[163.646312] (-) TimerEvent: {}
+[163.751159] (-) TimerEvent: {}
+[163.851465] (-) TimerEvent: {}
+[163.951773] (-) TimerEvent: {}
+[164.056565] (-) TimerEvent: {}
+[164.156878] (-) TimerEvent: {}
+[164.257174] (-) TimerEvent: {}
+[164.357475] (-) TimerEvent: {}
+[164.457762] (-) TimerEvent: {}
+[164.558070] (-) TimerEvent: {}
+[164.658387] (-) TimerEvent: {}
+[164.758709] (-) TimerEvent: {}
+[164.859021] (-) TimerEvent: {}
+[164.961763] (-) TimerEvent: {}
+[165.062076] (-) TimerEvent: {}
+[165.162401] (-) TimerEvent: {}
+[165.262746] (-) TimerEvent: {}
+[165.363081] (-) TimerEvent: {}
+[165.463838] (-) TimerEvent: {}
+[165.568760] (-) TimerEvent: {}
+[165.669072] (-) TimerEvent: {}
+[165.771710] (-) TimerEvent: {}
+[165.882816] (-) TimerEvent: {}
+[165.983123] (-) TimerEvent: {}
+[166.083567] (-) TimerEvent: {}
+[166.184760] (-) TimerEvent: {}
+[166.286796] (-) TimerEvent: {}
+[166.387765] (-) TimerEvent: {}
+[166.490714] (-) TimerEvent: {}
+[166.591016] (-) TimerEvent: {}
+[166.682243] (wpr_simulation2) StdoutLine: {'line': b'[ 83%] Built target 10_pc_objects\n'}
+[166.691122] (-) TimerEvent: {}
+[166.791429] (-) TimerEvent: {}
+[166.891747] (-) TimerEvent: {}
+[166.992046] (-) TimerEvent: {}
+[167.092461] (-) TimerEvent: {}
+[167.193762] (-) TimerEvent: {}
+[167.294179] (-) TimerEvent: {}
+[167.394669] (-) TimerEvent: {}
+[167.495140] (-) TimerEvent: {}
+[167.597883] (-) TimerEvent: {}
+[167.698366] (-) TimerEvent: {}
+[167.798831] (-) TimerEvent: {}
+[167.899289] (-) TimerEvent: {}
+[167.999758] (-) TimerEvent: {}
+[168.100233] (-) TimerEvent: {}
+[168.200525] (-) TimerEvent: {}
+[168.300830] (-) TimerEvent: {}
+[168.401329] (-) TimerEvent: {}
+[168.487622] (wpr_simulation2) StdoutLine: {'line': b'[ 85%] \x1b[1m\x1b[32mLinking CXX executable grab_object_sim\x1b[0m\n'}
+[168.501437] (-) TimerEvent: {}
+[168.601769] (-) TimerEvent: {}
+[168.702108] (-) TimerEvent: {}
+[168.802472] (-) TimerEvent: {}
+[168.902862] (-) TimerEvent: {}
+[169.003211] (-) TimerEvent: {}
+[169.103561] (-) TimerEvent: {}
+[169.203946] (-) TimerEvent: {}
+[169.304319] (-) TimerEvent: {}
+[169.404686] (-) TimerEvent: {}
+[169.505013] (-) TimerEvent: {}
+[169.605773] (-) TimerEvent: {}
+[169.706087] (-) TimerEvent: {}
+[169.806529] (-) TimerEvent: {}
+[169.906972] (-) TimerEvent: {}
+[170.007392] (-) TimerEvent: {}
+[170.108951] (-) TimerEvent: {}
+[170.209413] (-) TimerEvent: {}
+[170.310767] (-) TimerEvent: {}
+[170.411165] (-) TimerEvent: {}
+[170.512040] (-) TimerEvent: {}
+[170.613383] (-) TimerEvent: {}
+[170.617527] (wpr_simulation2) StdoutLine: {'line': b'[ 85%] Built target grab_object_sim\n'}
+[170.713487] (-) TimerEvent: {}
+[170.814325] (-) TimerEvent: {}
+[170.914633] (-) TimerEvent: {}
+[171.015767] (-) TimerEvent: {}
+[171.116434] (-) TimerEvent: {}
+[171.219406] (-) TimerEvent: {}
+[171.320079] (-) TimerEvent: {}
+[171.420382] (-) TimerEvent: {}
+[171.520688] (-) TimerEvent: {}
+[171.621403] (-) TimerEvent: {}
+[171.721709] (-) TimerEvent: {}
+[171.822712] (-) TimerEvent: {}
+[171.922999] (-) TimerEvent: {}
+[172.023452] (-) TimerEvent: {}
+[172.123761] (-) TimerEvent: {}
+[172.224052] (-) TimerEvent: {}
+[172.324358] (-) TimerEvent: {}
+[172.418542] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] \x1b[1m\x1b[32mLinking CXX executable objects_publisher\x1b[0m\n'}
+[172.424459] (-) TimerEvent: {}
+[172.524788] (-) TimerEvent: {}
+[172.625179] (-) TimerEvent: {}
+[172.725468] (-) TimerEvent: {}
+[172.826806] (-) TimerEvent: {}
+[172.927165] (-) TimerEvent: {}
+[173.027547] (-) TimerEvent: {}
+[173.128047] (-) TimerEvent: {}
+[173.228363] (-) TimerEvent: {}
+[173.328654] (-) TimerEvent: {}
+[173.428977] (-) TimerEvent: {}
+[173.529361] (-) TimerEvent: {}
+[173.629726] (-) TimerEvent: {}
+[173.730098] (-) TimerEvent: {}
+[173.830434] (-) TimerEvent: {}
+[173.930735] (-) TimerEvent: {}
+[174.031027] (-) TimerEvent: {}
+[174.131509] (-) TimerEvent: {}
+[174.231839] (-) TimerEvent: {}
+[174.332291] (-) TimerEvent: {}
+[174.432599] (-) TimerEvent: {}
+[174.532916] (-) TimerEvent: {}
+[174.633222] (-) TimerEvent: {}
+[174.733525] (-) TimerEvent: {}
+[174.833841] (-) TimerEvent: {}
+[174.934146] (-) TimerEvent: {}
+[175.034568] (-) TimerEvent: {}
+[175.109169] (wpr_simulation2) StdoutLine: {'line': b'[ 86%] Built target objects_publisher\n'}
+[175.126210] (wpr_simulation2) StdoutLine: {'line': b'[ 87%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[175.134663] (-) TimerEvent: {}
+[175.234963] (-) TimerEvent: {}
+[175.335414] (-) TimerEvent: {}
+[175.435710] (-) TimerEvent: {}
+[175.537332] (-) TimerEvent: {}
+[175.637656] (-) TimerEvent: {}
+[175.682001] (wpr_simulation2) StdoutLine: {'line': b'[ 87%] Built target wpr_simulation2__py\n'}
+[175.700759] (wpr_simulation2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/11_grab_object.dir/demo_cpp/11_grab_object.cpp.o\x1b[0m\n'}
+[175.737814] (-) TimerEvent: {}
+[175.838112] (-) TimerEvent: {}
+[175.938414] (-) TimerEvent: {}
+[176.039858] (-) TimerEvent: {}
+[176.140181] (-) TimerEvent: {}
+[176.240503] (-) TimerEvent: {}
+[176.340957] (-) TimerEvent: {}
+[176.441221] (-) TimerEvent: {}
+[176.541529] (-) TimerEvent: {}
+[176.641840] (-) TimerEvent: {}
+[176.742144] (-) TimerEvent: {}
+[176.842450] (-) TimerEvent: {}
+[176.942768] (-) TimerEvent: {}
+[177.043079] (-) TimerEvent: {}
+[177.143477] (-) TimerEvent: {}
+[177.243762] (-) TimerEvent: {}
+[177.344059] (-) TimerEvent: {}
+[177.444353] (-) TimerEvent: {}
+[177.545128] (-) TimerEvent: {}
+[177.645433] (-) TimerEvent: {}
+[177.745765] (-) TimerEvent: {}
+[177.846214] (-) TimerEvent: {}
+[177.946526] (-) TimerEvent: {}
+[178.046969] (-) TimerEvent: {}
+[178.147233] (-) TimerEvent: {}
+[178.247539] (-) TimerEvent: {}
+[178.348000] (-) TimerEvent: {}
+[178.448812] (-) TimerEvent: {}
+[178.549246] (-) TimerEvent: {}
+[178.649734] (-) TimerEvent: {}
+[178.750029] (-) TimerEvent: {}
+[178.850322] (-) TimerEvent: {}
+[178.950617] (-) TimerEvent: {}
+[179.051199] (-) TimerEvent: {}
+[179.151504] (-) TimerEvent: {}
+[179.252094] (-) TimerEvent: {}
+[179.353507] (-) TimerEvent: {}
+[179.453757] (-) TimerEvent: {}
+[179.554019] (-) TimerEvent: {}
+[179.654313] (-) TimerEvent: {}
+[179.754606] (-) TimerEvent: {}
+[179.856757] (-) TimerEvent: {}
+[179.957052] (-) TimerEvent: {}
+[180.057360] (-) TimerEvent: {}
+[180.157679] (-) TimerEvent: {}
+[180.258000] (-) TimerEvent: {}
+[180.358879] (-) TimerEvent: {}
+[180.459201] (-) TimerEvent: {}
+[180.559521] (-) TimerEvent: {}
+[180.661763] (-) TimerEvent: {}
+[180.762068] (-) TimerEvent: {}
+[180.862581] (-) TimerEvent: {}
+[180.963852] (-) TimerEvent: {}
+[181.064188] (-) TimerEvent: {}
+[181.164802] (-) TimerEvent: {}
+[181.265679] (-) TimerEvent: {}
+[181.365988] (-) TimerEvent: {}
+[181.466758] (-) TimerEvent: {}
+[181.567053] (-) TimerEvent: {}
+[181.667493] (-) TimerEvent: {}
+[181.767781] (-) TimerEvent: {}
+[181.868087] (-) TimerEvent: {}
+[181.968576] (-) TimerEvent: {}
+[182.069083] (-) TimerEvent: {}
+[182.170219] (-) TimerEvent: {}
+[182.270548] (-) TimerEvent: {}
+[182.371857] (-) TimerEvent: {}
+[182.472340] (-) TimerEvent: {}
+[182.572647] (-) TimerEvent: {}
+[182.673537] (-) TimerEvent: {}
+[182.773779] (-) TimerEvent: {}
+[182.874031] (-) TimerEvent: {}
+[182.974341] (-) TimerEvent: {}
+[183.074616] (-) TimerEvent: {}
+[183.174937] (-) TimerEvent: {}
+[183.275419] (-) TimerEvent: {}
+[183.375906] (-) TimerEvent: {}
+[183.476233] (-) TimerEvent: {}
+[183.576498] (-) TimerEvent: {}
+[183.676783] (-) TimerEvent: {}
+[183.777584] (-) TimerEvent: {}
+[183.877951] (-) TimerEvent: {}
+[183.978228] (-) TimerEvent: {}
+[184.078506] (-) TimerEvent: {}
+[184.178789] (-) TimerEvent: {}
+[184.279062] (-) TimerEvent: {}
+[184.379359] (-) TimerEvent: {}
+[184.479665] (-) TimerEvent: {}
+[184.579923] (-) TimerEvent: {}
+[184.680201] (-) TimerEvent: {}
+[184.780485] (-) TimerEvent: {}
+[184.880759] (-) TimerEvent: {}
+[184.981043] (-) TimerEvent: {}
+[185.081370] (-) TimerEvent: {}
+[185.181621] (-) TimerEvent: {}
+[185.282779] (-) TimerEvent: {}
+[185.383099] (-) TimerEvent: {}
+[185.483346] (-) TimerEvent: {}
+[185.583659] (-) TimerEvent: {}
+[185.683922] (-) TimerEvent: {}
+[185.784193] (-) TimerEvent: {}
+[185.884473] (-) TimerEvent: {}
+[185.984759] (-) TimerEvent: {}
+[186.085072] (-) TimerEvent: {}
+[186.185364] (-) TimerEvent: {}
+[186.285619] (-) TimerEvent: {}
+[186.385942] (-) TimerEvent: {}
+[186.486236] (-) TimerEvent: {}
+[186.586547] (-) TimerEvent: {}
+[186.686748] (-) TimerEvent: {}
+[186.786992] (-) TimerEvent: {}
+[186.887268] (-) TimerEvent: {}
+[186.987541] (-) TimerEvent: {}
+[187.087772] (-) TimerEvent: {}
+[187.188755] (-) TimerEvent: {}
+[187.289055] (-) TimerEvent: {}
+[187.389345] (-) TimerEvent: {}
+[187.489626] (-) TimerEvent: {}
+[187.589913] (-) TimerEvent: {}
+[187.690207] (-) TimerEvent: {}
+[187.790519] (-) TimerEvent: {}
+[187.890753] (-) TimerEvent: {}
+[187.991038] (-) TimerEvent: {}
+[188.091287] (-) TimerEvent: {}
+[188.191568] (-) TimerEvent: {}
+[188.273701] (wpr_simulation2) StdoutLine: {'line': b'[ 90%] \x1b[1m\x1b[32mLinking CXX executable 11_grab_object\x1b[0m\n'}
+[188.291677] (-) TimerEvent: {}
+[188.391999] (-) TimerEvent: {}
+[188.492318] (-) TimerEvent: {}
+[188.592643] (-) TimerEvent: {}
+[188.692991] (-) TimerEvent: {}
+[188.793302] (-) TimerEvent: {}
+[188.893615] (-) TimerEvent: {}
+[188.993942] (-) TimerEvent: {}
+[189.094258] (-) TimerEvent: {}
+[189.194530] (-) TimerEvent: {}
+[189.296760] (-) TimerEvent: {}
+[189.314771] (wpr_simulation2) StdoutLine: {'line': b'[ 90%] Built target 11_grab_object\n'}
+[189.326465] (wpr_simulation2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_py.dir/rosidl_generator_py/wpr_simulation2/msg/_object_s.c.o\x1b[0m\n'}
+[189.396858] (-) TimerEvent: {}
+[189.480462] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so\x1b[0m\n'}
+[189.496965] (-) TimerEvent: {}
+[189.511707] (wpr_simulation2) StdoutLine: {'line': b'[ 92%] Built target wpr_simulation2__rosidl_generator_py\n'}
+[189.523369] (wpr_simulation2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[189.597079] (-) TimerEvent: {}
+[189.615547] (wpr_simulation2) StdoutLine: {'line': b'[ 95%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[189.643650] (wpr_simulation2) StdoutLine: {'line': b'[ 95%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[189.655576] (wpr_simulation2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[189.697187] (-) TimerEvent: {}
+[189.745181] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[189.774615] (wpr_simulation2) StdoutLine: {'line': b'[ 97%] Built target wpr_simulation2__rosidl_typesupport_c__pyext\n'}
+[189.787007] (wpr_simulation2) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[189.797295] (-) TimerEvent: {}
+[189.876308] (wpr_simulation2) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[189.897423] (-) TimerEvent: {}
+[189.902497] (wpr_simulation2) StdoutLine: {'line': b'[100%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext\n'}
+[189.910801] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[189.915597] (wpr_simulation2) JobProgress: {'identifier': 'wpr_simulation2', 'progress': 'install'}
+[189.997513] (-) TimerEvent: {}
+[190.004629] (wpr_simulation2) Command: {'cmd': ['/home/ivika/.local/bin/cmake', '--install', '/home/ivika/ros2_ws/src/build/wpr_simulation2'], 'cwd': '/home/ivika/ros2_ws/src/build/wpr_simulation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ivika'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivika'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/ivika/ros2_ws/src/wpr_simulation2'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ivika/.config/nvm/versions/node/v22.23.2/bin'), ('NVM_INC', '/home/ivika/.config/nvm/versions/node/v22.23.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '831'), ('SYSTEMD_EXEC_PID', '992'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4199'), ('NVM_DIR', '/home/ivika/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install:/home/ivika/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ivika'), ('JOURNAL_STREAM', '8:11312'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '36354'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivika'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PI_VSCODE_BRIDGE_TOKEN', '0c5618273d18ab533986a962ff5de968baf90cd5bdec798eaf13fdb16f15d2c5'), ('PATH', '/home/ivika/.opencode/bin:/home/ivika/.espressif/eim:/opt/ros/humble/bin:/home/ivika/.config/nvm/versions/node/v22.23.2/bin:/home/ivika/.opencode/bin:/home/ivika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ivika/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/usr/share/code/bin/copilot-shim'), ('SESSION_MANAGER', 'local/Magic13:@/tmp/.ICE-unix/964,unix/Magic13:/tmp/.ICE-unix/964'), ('INVOCATION_ID', 'e7f7df87f8cb442db65f0e9b7388442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('PI_VSCODE_BRIDGE_EXTENSION', '/home/ivika/.vscode/extensions/narumi.narumi-pi-0.10.0/resources/pi-bridge.ts'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/ivika/.config/Code/User/workspaceStorage/a7a5894ed8cc463657ec498507ed95f3/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXI0Y3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa2c624eab.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ivika/ros2_ws/src/build/wpr_simulation2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '25bc4bf93927217dd6ab6ea78fbcf57f'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/build/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup/lib/python3.10/site-packages:/home/ivika/Auto_Driving/experiments/lab01_http_car/build/control_learn:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('PI_VSCODE_BRIDGE_PORT', '39537'), ('CMAKE_PREFIX_PATH', '/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble')]), 'shell': False}
+[190.087250] (wpr_simulation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[190.087473] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2\n'}
+[190.087733] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.087907] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.088059] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.088187] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c\n'}
+[190.088355] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h\n'}
+[190.088520] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h\n'}
+[190.088664] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h\n'}
+[190.088794] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h\n'}
+[190.088894] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h\n'}
+[190.089060] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh\n'}
+[190.089269] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv\n'}
+[190.089591] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so\n'}
+[190.089962] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so" to ""\n'}
+[190.090222] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.090313] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.090421] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.090536] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[190.090619] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[190.090679] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so\n'}
+[190.090792] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[190.090854] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.090909] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.090961] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[190.091044] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.091130] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp\n'}
+[190.091211] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp\n'}
+[190.091265] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp\n'}
+[190.091318] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp\n'}
+[190.091392] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp\n'}
+[190.091471] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.091549] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.091599] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[190.091675] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.091761] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps\n'}
+[190.091839] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[190.091932] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[190.092239] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[190.092355] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.092407] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.092455] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[190.092536] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.092627] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[190.092741] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c\n'}
+[190.092860] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so\n'}
+[190.093037] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[190.093118] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so\n'}
+[190.093345] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so" to ""\n'}
+[190.093451] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2\n'}
+[190.093566] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg\n'}
+[190.093622] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail\n'}
+[190.093673] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[190.093762] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp\n'}
+[190.093812] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so\n'}
+[190.094057] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[190.094165] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so\n'}
+[190.094359] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so" to ""\n'}
+[190.094453] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh\n'}
+[190.094581] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv\n'}
+[190.094788] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info\n'}
+[190.094948] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[190.095073] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[190.095220] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[190.095373] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[190.095489] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2\n'}
+[190.095608] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.095724] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so\n'}
+[190.095859] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.096042] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c\n'}
+[190.096171] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg\n'}
+[190.096263] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c\n'}
+[190.096373] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py\n'}
+[190.096482] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py\n'}
+[190.096592] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[190.096719] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.096853] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py\n'}
+[190.097011] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[190.097575] (-) TimerEvent: {}
+[190.134919] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...\n"}
+[190.135106] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py'...\n"}
+[190.135202] (wpr_simulation2) StdoutLine: {'line': b"Listing '/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...\n"}
+[190.135287] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py'...\n"}
+[190.135367] (wpr_simulation2) StdoutLine: {'line': b"Compiling '/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py'...\n"}
+[190.140000] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.140229] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[190.140526] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.140822] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[190.141021] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[190.141289] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[190.141430] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so\n'}
+[190.141669] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so" to ""\n'}
+[190.141790] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust\n'}
+[190.141929] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/build.rs\n'}
+[190.142145] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/src\n'}
+[190.142334] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg.rs\n'}
+[190.142508] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg\n'}
+[190.142614] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/src/msg/rmw.rs\n'}
+[190.142801] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/src/lib.rs\n'}
+[190.142920] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rust/Cargo.toml\n'}
+[190.143092] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl\n'}
+[190.143179] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[190.143344] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/config\n'}
+[190.143499] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml\n'}
+[190.144294] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml\n'}
+[190.144479] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch\n'}
+[190.144625] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py\n'}
+[190.145098] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py\n'}
+[190.145369] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py\n'}
+[190.145551] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py\n'}
+[190.145673] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py\n'}
+[190.145990] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py\n'}
+[190.146168] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py\n'}
+[190.146317] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py\n'}
+[190.146473] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py\n'}
+[190.146669] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py\n'}
+[190.146824] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py\n'}
+[190.146980] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py\n'}
+[190.147100] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py\n'}
+[190.147243] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py\n'}
+[190.147386] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py\n'}
+[190.147591] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py\n'}
+[190.147722] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py\n'}
+[190.147824] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py\n'}
+[190.147973] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py\n'}
+[190.148103] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py\n'}
+[190.148226] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch\n'}
+[190.148389] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py\n'}
+[190.148585] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml\n'}
+[190.148768] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml\n'}
+[190.148925] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py\n'}
+[190.149115] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py\n'}
+[190.149237] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py\n'}
+[190.149358] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py\n'}
+[190.149479] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds\n'}
+[190.149638] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world\n'}
+[190.149904] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world\n'}
+[190.150027] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world\n'}
+[190.150149] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world\n'}
+[190.150315] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world\n'}
+[190.150491] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world\n'}
+[190.150679] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models\n'}
+[190.150872] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model\n'}
+[190.151143] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/table.model\n'}
+[190.151316] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model\n'}
+[190.151475] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model\n'}
+[190.151728] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model\n'}
+[190.151957] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model\n'}
+[190.152070] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/chair.model\n'}
+[190.152214] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/woman.model\n'}
+[190.152358] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model\n'}
+[190.152531] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model\n'}
+[190.152673] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model\n'}
+[190.152829] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/bed.model\n'}
+[190.152969] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model\n'}
+[190.153182] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model\n'}
+[190.153428] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model\n'}
+[190.153601] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model\n'}
+[190.153779] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/balls\n'}
+[190.153918] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model\n'}
+[190.154053] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model\n'}
+[190.154224] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model\n'}
+[190.154346] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model\n'}
+[190.154461] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/bottles\n'}
+[190.154563] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model\n'}
+[190.154682] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model\n'}
+[190.154810] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model\n'}
+[190.154931] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes\n'}
+[190.155101] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3\n'}
+[190.155249] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae\n'}
+[190.157222] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/kai\n'}
+[190.157366] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae\n'}
+[190.159312] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png\n'}
+[190.159967] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae\n'}
+[190.160338] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae\n'}
+[190.160761] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1\n'}
+[190.160944] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae\n'}
+[190.161563] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png\n'}
+[190.161895] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table\n'}
+[190.162067] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg\n'}
+[190.162284] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bed\n'}
+[190.162442] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg\n'}
+[190.162633] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg\n'}
+[190.162824] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae\n'}
+[190.163146] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard\n'}
+[190.163285] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg\n'}
+[190.163552] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home\n'}
+[190.163655] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae\n'}
+[190.168264] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae\n'}
+[190.174156] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae\n'}
+[190.174771] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa\n'}
+[190.174996] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg\n'}
+[190.175348] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1\n'}
+[190.175514] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae\n'}
+[190.177787] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae\n'}
+[190.179247] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae\n'}
+[190.182793] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae\n'}
+[190.184346] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae\n'}
+[190.186904] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae\n'}
+[190.187787] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae\n'}
+[190.188009] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae\n'}
+[190.188406] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/chair\n'}
+[190.188582] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg\n'}
+[190.188829] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft\n'}
+[190.188956] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg\n'}
+[190.189281] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/woman\n'}
+[190.189442] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae\n'}
+[190.190277] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png\n'}
+[190.190589] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/table\n'}
+[190.190821] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg\n'}
+[190.191131] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae\n'}
+[190.191535] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae\n'}
+[190.191818] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2\n'}
+[190.192039] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae\n'}
+[190.192748] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png\n'}
+[190.193375] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae\n'}
+[190.193690] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl\n'}
+[190.194284] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz\n'}
+[190.194450] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz\n'}
+[190.194799] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz\n'}
+[190.195135] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz\n'}
+[190.195385] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz\n'}
+[190.195600] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz\n'}
+[190.195858] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz\n'}
+[190.195963] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz\n'}
+[190.196116] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src\n'}
+[190.196200] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py\n'}
+[190.196374] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp\n'}
+[190.196457] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp\n'}
+[190.196540] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp\n'}
+[190.196760] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp\n'}
+[190.196883] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp\n'}
+[190.197009] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/msg\n'}
+[190.197142] (wpr_simulation2) StdoutLine: {'line': b'-- Up-to-date: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg\n'}
+[190.197235] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/maps\n'}
+[190.197330] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/maps/map.yaml\n'}
+[190.197512] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore\n'}
+[190.197635] (-) TimerEvent: {}
+[190.197756] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/maps/map.pgm\n'}
+[190.198213] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py\n'}
+[190.198383] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim\n'}
+[190.204544] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim" to ""\n'}
+[190.204753] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd\n'}
+[190.206515] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd" to ""\n'}
+[190.206679] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move\n'}
+[190.208369] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move" to ""\n'}
+[190.208587] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher\n'}
+[190.213079] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""\n'}
+[190.213292] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim\n'}
+[190.219921] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""\n'}
+[190.220142] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node\n'}
+[190.221688] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node" to ""\n'}
+[190.221889] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node\n'}
+[190.227183] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node" to ""\n'}
+[190.227361] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command\n'}
+[190.229641] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command" to ""\n'}
+[190.229810] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data\n'}
+[190.235053] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data" to ""\n'}
+[190.235231] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior\n'}
+[190.240639] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior" to ""\n'}
+[190.240950] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data\n'}
+[190.245933] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""\n'}
+[190.249792] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior\n'}
+[190.250928] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""\n'}
+[190.251157] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation\n'}
+[190.254668] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation" to ""\n'}
+[190.254895] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image\n'}
+[190.262482] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image" to ""\n'}
+[190.264167] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv\n'}
+[190.268136] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv" to ""\n'}
+[190.268495] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow\n'}
+[190.274523] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow" to ""\n'}
+[190.274820] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect\n'}
+[190.280386] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect" to ""\n'}
+[190.280737] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data\n'}
+[190.285029] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""\n'}
+[190.286025] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects\n'}
+[190.289357] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""\n'}
+[190.289583] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl\n'}
+[190.291060] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl" to ""\n'}
+[190.293815] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object\n'}
+[190.295806] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""\n'}
+[190.296822] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/12_fetch\n'}
+[190.297730] (-) TimerEvent: {}
+[190.299636] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/12_fetch" to ""\n'}
+[190.299878] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client\n'}
+[190.300688] (wpr_simulation2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client" to ""\n'}
+[190.300858] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2\n'}
+[190.301146] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2\n'}
+[190.301373] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh\n'}
+[190.301609] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv\n'}
+[190.301831] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh\n'}
+[190.302066] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv\n'}
+[190.302254] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash\n'}
+[190.302440] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh\n'}
+[190.302676] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh\n'}
+[190.302875] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv\n'}
+[190.303194] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.dsv\n'}
+[190.303365] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2\n'}
+[190.303581] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake\n'}
+[190.303854] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake\n'}
+[190.304098] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[190.304318] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[190.304529] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake\n'}
+[190.304795] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[190.305054] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[190.305274] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[190.305489] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[190.305865] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake\n'}
+[190.306103] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[190.306269] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[190.306820] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[190.307272] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake\n'}
+[190.307457] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[190.307545] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake\n'}
+[190.307669] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[190.307857] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake\n'}
+[190.308071] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[190.308293] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[190.308479] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[190.308707] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[190.308934] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[190.309127] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[190.309317] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[190.309501] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake\n'}
+[190.309703] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake\n'}
+[190.310070] (wpr_simulation2) StdoutLine: {'line': b'-- Installing: /home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.xml\n'}
+[190.312280] (wpr_simulation2) CommandEnded: {'returncode': 0}
+[190.343718] (wpr_simulation2) JobEnded: {'identifier': 'wpr_simulation2', 'rc': 0}
+[190.344330] (-) EventReactorShutdown: {}

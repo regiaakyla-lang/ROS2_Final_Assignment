@@ -1,0 +1,138 @@
+[0.298s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.298s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x758d1565be20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x758d1565b910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x758d1565b910>>, mixin_verb=('build',))
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.734s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ivika/ros2_ws/src'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(wpr_simulation2) by extension 'ros'
+[0.762s] DEBUG:colcon.colcon_core.package_identification:Package 'wpr_simulation2' with type 'ros.ament_cmake' and name 'wpr_simulation2'
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.836s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ivika/Auto_Driving/experiments/lab01_http_car/install
+[0.837s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ivika/ros2_ws/install
+[0.840s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'wpr_simulation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.929s] DEBUG:colcon.colcon_core.verb:Building package 'wpr_simulation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivika/ros2_ws/src/build/wpr_simulation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivika/ros2_ws/src/install/wpr_simulation2', 'merge_install': False, 'path': '/home/ivika/ros2_ws/src/wpr_simulation2', 'symlink_install': False, 'test_result_base': None}
+[0.930s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivika/ros2_ws/src/wpr_simulation2' with build type 'ament_cmake'
+[0.932s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivika/ros2_ws/src/wpr_simulation2'
+[0.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivika/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake /home/ivika/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/ivika/ros2_ws/src/install/wpr_simulation2
+[11.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivika/ros2_ws/src/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake /home/ivika/ros2_ws/src/wpr_simulation2 -DCMAKE_INSTALL_PREFIX=/home/ivika/ros2_ws/src/install/wpr_simulation2
+[11.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivika/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake --build /home/ivika/ros2_ws/src/build/wpr_simulation2 -- -j4 -l4
+[190.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivika/ros2_ws/src/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake --build /home/ivika/ros2_ws/src/build/wpr_simulation2 -- -j4 -l4
+[190.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivika/ros2_ws/src/build/wpr_simulation2': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake --install /home/ivika/ros2_ws/src/build/wpr_simulation2
+[191.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wpr_simulation2)
+[191.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivika/ros2_ws/src/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/home/ivika/Auto_Driving/experiments/lab01_http_car/install/yunyan_bringup:/home/ivika/Auto_Driving/experiments/lab01_http_car/install/control_learn:/opt/ros/humble /home/ivika/.local/bin/cmake --install /home/ivika/ros2_ws/src/build/wpr_simulation2
+[191.252s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2' for CMake module files
+[191.253s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2' for CMake config files
+[191.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'cmake_prefix_path')
+[191.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.ps1'
+[191.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.dsv'
+[191.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.sh'
+[191.256s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib'
+[191.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'ld_library_path_lib')
+[191.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.ps1'
+[191.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.dsv'
+[191.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.sh'
+[191.258s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/bin'
+[191.258s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/pkgconfig/wpr_simulation2.pc'
+[191.258s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/python3.10/site-packages'
+[191.258s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/bin'
+[191.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.ps1'
+[191.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.dsv'
+[191.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.sh'
+[191.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.bash'
+[191.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.zsh'
+[191.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivika/ros2_ws/src/install/wpr_simulation2/share/colcon-core/packages/wpr_simulation2)
+[191.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wpr_simulation2)
+[191.267s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2' for CMake module files
+[191.267s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2' for CMake config files
+[191.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'cmake_prefix_path')
+[191.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.ps1'
+[191.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.dsv'
+[191.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/cmake_prefix_path.sh'
+[191.269s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib'
+[191.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('wpr_simulation2', 'ld_library_path_lib')
+[191.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.ps1'
+[191.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.dsv'
+[191.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/hook/ld_library_path_lib.sh'
+[191.271s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/bin'
+[191.271s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/pkgconfig/wpr_simulation2.pc'
+[191.271s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/lib/python3.10/site-packages'
+[191.271s] Level 1:colcon.colcon_core.environment:checking '/home/ivika/ros2_ws/src/install/wpr_simulation2/bin'
+[191.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.ps1'
+[191.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.dsv'
+[191.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.sh'
+[191.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.bash'
+[191.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivika/ros2_ws/src/install/wpr_simulation2/share/wpr_simulation2/package.zsh'
+[191.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivika/ros2_ws/src/install/wpr_simulation2/share/colcon-core/packages/wpr_simulation2)
+[191.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[191.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[191.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[191.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[191.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[191.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[191.283s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[191.315s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[191.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivika/ros2_ws/src/install/local_setup.ps1'
+[191.317s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivika/ros2_ws/src/install/_local_setup_util_ps1.py'
+[191.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivika/ros2_ws/src/install/setup.ps1'
+[191.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivika/ros2_ws/src/install/local_setup.sh'
+[191.322s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivika/ros2_ws/src/install/_local_setup_util_sh.py'
+[191.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivika/ros2_ws/src/install/setup.sh'
+[191.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivika/ros2_ws/src/install/local_setup.bash'
+[191.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivika/ros2_ws/src/install/setup.bash'
+[191.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivika/ros2_ws/src/install/local_setup.zsh'
+[191.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivika/ros2_ws/src/install/setup.zsh'
